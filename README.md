@@ -77,9 +77,9 @@ The unziped files are located in the **unzipped** folder (dont add files here - 
 
 The folder **specifications** includes the criteria for each type of research object.
 
-A CRO can be a file with a:
+A CO can be a file with a:
 1) files with a given extension. (in some cases, the first line of the file gives more details !? .cdx about version.... ?!)
 2) a folder with simultaneous presence of given files (say fid and acqus in Bruker language)
 
 In some cases, CO can have different levels pointing to the same files. Eg, an "nmr_analysis" can include multiple "nmr_experiments" which may include different "nmr_spectra" (difference processing).
-
+ ... to be developped ...
