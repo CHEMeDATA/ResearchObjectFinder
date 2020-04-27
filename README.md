@@ -1,3 +1,5 @@
+In progress. To contribute, [click here](https://github.com/CHEMeDATA/ResearchObjectFinder/edit/master/README.md), make changes and request update at the bottom of the edit page.
+
 # ResearchObjectFinder
 Develop method to identify chemistry objects (CO) within archive files
 
