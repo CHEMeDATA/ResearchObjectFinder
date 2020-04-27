@@ -1,5 +1,5 @@
 # ResearchObjectFinder
-develop method to identify chemistry objects (CO) within archive files
+Develop method to identify chemistry objects (CO) within archive files
 
 ## Chemistry objects
 This is a tentative list of objects and relations.
@@ -44,7 +44,7 @@ This is a tentative list of objects and relations.
     - instrument, date of acquisition )
     - Associated publication ? (is this part of the spectrum property - make reciprocal link to the publication)
     - Associated compound ? (is this part of the spectrum property - make reciprocal link to the assignment)
-- Assignment (only necessary if includes some detail - if just this spectrum corresponds to this molecule, link may be in the spectrum/compound object ?? Or always, because this is a link)
+- 3) Assignment (only necessary if includes some detail - if just to say "this spectrum corresponds to this molecule", link may be in the spectrum/compound object ?? Or always, because this is a link)
   - Properties
     - has one (or more - if mixture) molecules
       - just link to .mol file?
