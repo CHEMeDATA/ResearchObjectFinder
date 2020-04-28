@@ -2,6 +2,30 @@ In progress. To contribute, [click here](https://github.com/CHEMeDATA/ResearchOb
 
 # ResearchObjectFinder
 Develop method to identify chemistry objects (CO) within archive files
+## Digital Objects
+### Chemical Identifier Related
+  - Compound Metadata Object
+     - Properties:
+        - Inchi
+        - Formula(s)
+        - SMILE(s) 
+        - Meltng Point
+  - 2D SDF(s)
+  - 3D SDF(s)
+  
+### Spectroscopy Data
+  - Vendor-Specific Digital Object(s)
+  - JDX Digital Object(s)
+  - Spectrum PDF Object
+  - Spectrum image Object
+
+### Assignment Data
+  - NMReData Object
+  - Spinus Analysis Object
+  - NMRDB Object
+
+### Other
+
 
 ## Chemistry objects
 This is a tentative list of objects and relations.
