@@ -28,7 +28,7 @@ Develop method to identify chemistry objects (CO) within archive files
   - Spinus Analysis Object
   - NMRDB Object
 
-### Other
+# Digital Entities
   - Additional Uncatalogued Digital Entities
 
 
