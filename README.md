@@ -13,8 +13,9 @@ Develop method to identify chemistry objects (CO) within archive files
         - SMILE(s) 
         - Meltng Point
         - [selected spectroscopy extracted data]
-  - 2D SDF(s)
-  - 3D SDF(s)
+  - 2D SDF Object(s)
+  - 3D SDF Object(s)
+  - Computational Results Object(s)
   - Experimental Procedure()
   
 ### Spectroscopy Data
