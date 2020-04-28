@@ -4,6 +4,7 @@ In progress. To contribute, [click here](https://github.com/CHEMeDATA/ResearchOb
 Develop method to identify chemistry objects (CO) within archive files
 ## Digital Objects
  - FairSpec digital.finding.aid Object
+     - Properties:
  
 ### Compound (Meta)Data
   - FairSpec chemical.identifier.metadata Object
