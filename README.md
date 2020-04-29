@@ -39,14 +39,14 @@ from this [yareta record](https://yareta.unige.ch/frontend/archive/62c9dc3b-6f44
 
 The criteria (third column in the table) are discussed [below](#criteria). 
 
-# Criteria
+## Criteria
 We consider (thus far) three tests functions:
 - [requireFileExtension()](#file-extension) (test the presence of given file - full file name).
 - [requireFileNamed()](#file-name) (test the presence of given file - full file name).
 - [requireFileInclude()](#presence-of-a-specific-string-in-a-file) (test the presence of a specific string in a text file). 
 
 See below for more details.
-## File extension
+### File extension
 The criterion may be a given extention.
 
 Examples:
@@ -54,14 +54,14 @@ Examples:
 requireFileExtension(".cdxml") // for the presence of ChemDrawPro file in the CML format
 requireFileExtension(".sp") // for the presence of ChemDrawPro file in the CML format
 ```
-## File name
+### File name
 The criterion may be the presence of one or more specific file(s).
 ```javascript
 requireFileNamed("1r")
 requireFileNamed("procs")
 ```
 Implicitly all conditions should be fulfilled.
-## Presence of associated files
+#### Associated files
 In some cases, the presence of additional files located at specific location relative to the reference position in the folder tree.
 For example a 1D Bruker spectrum should fullfil all these conditions: 
 ```javascript
@@ -71,17 +71,8 @@ requireFileNamed("fid",2) // the 2 means that the file is two steps below in the
 requireFileNamed("acqus",2)
 ```
 Note that associated files may be in a separate folder (see the number following the filename). The locations are relative to the reference folder.
-## Using boolean operators
-Implicitly all conditions should be fulfilled ( && operator between the lines), but other logical operators can be used:
-For a Bruker spectrum (1D or 2D): 
-```javascript
-(requireFileNamed("1r") || requireFileNamed("2rr"))
-requireFileNamed("procs")
-(requireFileNamed("fid", 2) || requireFileNamed("ser", 2) )
-requireFileNamed("acqus",2)
-```
 
-## Presence of a specific string in a file
+### Presence of a specific string in a file
 Additional conditions may be used to refine the identification. For example the presence of a magic key or other [file signature](https://en.wikipedia.org/wiki/List_of_file_signatures). This can be used to test the value for a parameter. 
 
 For example, to test if the detected isotope is carbon-13: 
@@ -95,8 +86,18 @@ requireFileInclude(CURRENT_FILE, 0, "3D", 2, 21) // searches for "3D" at line 2,
 ```
 
 This allows to distinguish different (sub)types of objects. In this specific case, to disthinguish a 1D <sup>13</sup>C NMR spectra from 1D spectra of other isotope). We need to make this distinction to make a precise list of the content of the archive.
-
-## Determine location in path
+## Other operation
+### Using boolean operators
+ Using boolean operators
+Implicitly all conditions should be fulfilled ( && operator between the lines), but other logical operators can be used:
+For a Bruker spectrum (1D or 2D): 
+```javascript
+(requireFileNamed("1r") || requireFileNamed("2rr"))
+requireFileNamed("procs")
+(requireFileNamed("fid", 2) || requireFileNamed("ser", 2) )
+requireFileNamed("acqus",2)
+```
+### Determine location in path
 Sometimes a set of objects need to be put toghether. At least this is useful with NMR spectra in Bruker files.
 This function allows to group together all the experiments/spectra located in the same folder
 ```javascript
@@ -107,7 +108,7 @@ For
 CURRENT_PATH = "Volumes/data/studentwork/honey/25/pdata/1/" 
 ```
 it should return `honey`.
-## starting point in file tree of complex objects
+### starting point in file tree of complex objects
 Sometimes a complex objects should include all the files included in a branch
 This function allows to group point to the root of the file to include
 ```javascript
