@@ -3,6 +3,7 @@ A more simple methods consits in raising issues [raising issues](https://github.
 
 ## Finding Chemistry Objects 
 The goal is to locate chemistry objects (chemistry structure file (.mol, .sdf, .cdx), NMR spectra in the Bruker format etc.) inside archives in the .zip format.
+This will allow to list them, propose a previous, selective upload, etc.
 
 The demo .zip files WILL BE in located in the **data** folder
 The unziped files WILL BE located in the **unzipped** folder (dont add files here - but as .tip in the data folder)
@@ -10,8 +11,10 @@ The unziped files WILL BE located in the **unzipped** folder (dont add files her
 The folder **specifications** includes the criteria for each type of research object.
 
 The identification can be done with a:
-1) a file extension extension. Except if specified otherwise, the object will consist in a single file.
-2) a folder with simultaneous presence of one or more files (say fid and acqus in Bruker language). The object include multiple files or all files included in a branch of the file tree.
+1) file with a specific file extension. 
+2) a folder where a set of test about the presence of multiplet files (say fid and acqus in Bruker language) is satisfied. 
+
+The object may include multiple files or all files included in a branch of the file tree.
 
 
 ## Short list of Chemistry object
