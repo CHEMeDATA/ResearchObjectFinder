@@ -105,6 +105,8 @@ it should return `honey`.
 
 ## Long list of Chemistry object
 
+To be extendend.
+
 #|Chemistry object | Criteria | Type of visualization
 -|------|---|---
 1|Bruker 1D NMR FID|file_name:"fid" & exist_file:"`./acqus`"|x/y plot (time/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot

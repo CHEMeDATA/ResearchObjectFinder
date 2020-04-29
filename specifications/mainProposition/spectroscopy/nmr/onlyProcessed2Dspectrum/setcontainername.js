@@ -1,0 +1,1 @@
+container_name = ( "NMR analysis : " + getNamePathLevel(CURRENT_PATH,1) ); 
