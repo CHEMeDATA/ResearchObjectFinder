@@ -25,10 +25,10 @@ This is a preliminary short version of a [longer list](#long-list-of-chemistry-o
 
 #|Chemistry object | Criteria | Type of data |visualization
 -|------|---|---|--
-2|Bruker 1D <sup>1</sup>H NMR spectrum|requireFileNamed(`1r`) & requireFileNamed(`procs`) & requireFileNamed(`fid`,2) & requireFileNamed(`acqus`,2)|x/y plot (ppm/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
-7|IR spectrum|frequireFileNamed(`.sp`)|x/y plot (energy in nm non-homogeneous scale/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
-8|X-ray crystallography structure|requireFileNamed(`.cif`)|3D chemistry structure visualization)|[JSmol](http://wiki.jmol.org/index.php/Main_Page), etc.
-9|2D molecular structure|requireFileNamed(`.cdx`)|2D chemistry structure visualization)|[JSmol](http://wiki.jmol.org/index.php/Main_Page), etc. after conversion!
+2|Bruker 1D <sup>1</sup>H NMR spectrum|require(`1r`) & requirequirereFileNamed(`procs`) & require(`fid`,2) & require(`acqus`,2)|x/y plot (ppm/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
+7|IR spectrum|require(`.sp`)|x/y plot (energy in nm non-homogeneous scale/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
+8|X-ray crystallography structure|require(`.cif`)|3D chemistry structure visualization)|[JSmol](http://wiki.jmol.org/index.php/Main_Page), etc.
+9|2D molecular structure|require(`.cdx`)|2D chemistry structure visualization)|[JSmol](http://wiki.jmol.org/index.php/Main_Page), etc. after conversion!
 
 Examples of the above-mentionned objects can be found in the files:
 ```
@@ -37,7 +37,7 @@ Examples of the above-mentionned objects can be found in the files:
 /researchdata/Other Data per compound/3n_(S)-Me-1-naphth-18C6/2nd eluted/3n_(S)-Me-1-naphth-18C6_2nd elt_FT-IR.sp 
 /researchdata/Other Data per compound/3n_(S)-Me-1-naphth-18C6/3n_(S)-Me-1-naphth-18C6.cdx
 ```
-from this [yareta record](https://yareta.unige.ch/frontend/archive/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6). 
+From this [yareta record](https://yareta.unige.ch/frontend/archive/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6). Store the zip files in the data folder and the unziped data in the "unziped" folder.
 
 The criteria (third column in the table) are discussed [below](#criteria). 
 
