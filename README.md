@@ -25,7 +25,7 @@ This is a preliminary short version of a [longer list](#long-list-of-chemistry-o
 
 #|Chemistry object | Criteria | Type of data |visualization
 -|------|---|---|--
-2|Bruker 1D <sup>1</sup>H NMR spectrum|require(`1r`) & requirequirereFileNamed(`procs`) & require(`fid`,2) & require(`acqus`,2)|x/y plot (ppm/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
+2|Bruker 1D <sup>1</sup>H NMR spectrum|require(`1r`) & require(`procs`) & require(`fid`,2) & require(`acqus`,2)|x/y plot (ppm/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
 7|IR spectrum|require(`.sp`)|x/y plot (energy in nm non-homogeneous scale/intensity)|[JCAMP-DX](http://jcamp-dx.org/), simple x/y plot
 8|X-ray crystallography structure|require(`.cif`)|3D chemistry structure visualization)|[JSmol](http://wiki.jmol.org/index.php/Main_Page), etc.
 9|2D molecular structure|require(`.cdx`)|2D chemistry structure visualization)|[JSmol](http://wiki.jmol.org/index.php/Main_Page), etc. after conversion!
