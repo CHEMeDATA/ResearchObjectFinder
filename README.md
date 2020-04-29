@@ -5,9 +5,11 @@ A more simple methods consits in [raising issues](https://github.com/CHEMeDATA/R
 The goal is to locate chemistry objects such as chemistry structure file (.mol, .sdf, .cdx), NMR spectra in the Bruker format *etc.* inside archives in the .zip format.
 This will allow to list them, propose a previous, selective upload, etc.
 
-The demo .zip files WILL BE in located in the **data** folder. 
+The zip files and folders are too large for GitHub.
 
-The unziped files WILL BE located in the **unzipped** folder (don't add files here - but as .tip in the data folder).
+The demo .zip files should be in located in the **data** folder. 
+
+The unziped files should be located in the **unziped** folder.
 
 The folder [**specifications**](https://github.com/CHEMeDATA/ResearchObjectFinder/tree/master/specifications) includes the criteria for each type of research object.
 
