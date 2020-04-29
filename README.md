@@ -46,49 +46,54 @@ We consider (thus far) three tests functions:
 
 See below for more details.
 ## File extension
-The criterion is the presence of filename with a given extention (file_name=="`*.sp`"). 
-Example:
+The criterion may be a given extention.
+
+Examples:
 ```javascript
-requireFileExtension("cdxml") // for the presence of ChemDrawPro file in the CML format
+requireFileExtension(".cdxml") // for the presence of ChemDrawPro file in the CML format
+requireFileExtension(".sp") // for the presence of ChemDrawPro file in the CML format
 ```
 ## File name
-The criterion is the presence of one or more specific file.
+The criterion may be the presence of one or more specific file(s).
 ```javascript
 requireFileNamed("1r")
 requireFileNamed("procs")
 ```
- or filename extention (file_name=="`*.sp`"). 
-
+Implicitly all conditions should be fulfilled.
 ## Presence of associated files
-In some cases, the presence of additional located at specific location relative to the reference position in the folder tree.
-This is done with: 
+In some cases, the presence of additional files located at specific location relative to the reference position in the folder tree.
+For example a 1D Bruker spectrum should fullfil all these conditions: 
 ```javascript
 requireFileNamed("1r")
 requireFileNamed("procs")
 requireFileNamed("fid",2) // the 2 means that the file is two steps below in the file tree : ../../fid
 requireFileNamed("acqus",2)
 ```
-Note that associated files may be in a separate folder (see the number following the filename). The locations are relative to the reference folder (see above).
+Note that associated files may be in a separate folder (see the number following the filename). The locations are relative to the reference folder.
 ## Using boolean operators
-Implicitly all conditions should be fulfilled ( && operator), but OR can be explicitly expressed:
-This is done with: 
+Implicitly all conditions should be fulfilled ( && operator between the lines), but other logical operators can be used:
+For a Bruker spectrum (1D or 2D): 
 ```javascript
-requireFileNamed("1r") || requireFileNamed("2rr")
+(requireFileNamed("1r") || requireFileNamed("2rr"))
 requireFileNamed("procs")
-requireFileNamed("fid", 2) || requireFileNamed("ser", 2) 
+(requireFileNamed("fid", 2) || requireFileNamed("ser", 2) )
 requireFileNamed("acqus",2)
 ```
 
 ## Presence of a specific string in a file
-Additional conditions may be used to refine the identification. For example the presence of a magic key or other [file signature](https://en.wikipedia.org/wiki/List_of_file_signatures). This can be used to test the value for a parameter. For example: 
+Additional conditions may be used to refine the identification. For example the presence of a magic key or other [file signature](https://en.wikipedia.org/wiki/List_of_file_signatures). This can be used to test the value for a parameter. 
+
+For example, to test if the detected isotope is carbon-13: 
 ```javascript
-requireFileInclude("acqus",2,"##$NUC1= <13C>")  // test in the file acqus located two steps below in the tree file for a line including the given string.
-requireFileInclude(CURRENT_FILE, 0, "2D", 2, 21) // searches for "2D" at line 2, characters 21 to 22 (start counting at 1) in the currently studied file (same location , therefore 0 )
+requireFileInclude("acqus",2,"##$NUC1= <13C>")  // test in the file acqus located two steps below in the tree file for a line including the given string. 
 ```
-means that a given string of characters if found in a given file.
+For example, to test if the structure in a .mol file is 2D or 3D: 
+```javascript
+requireFileInclude(CURRENT_FILE, 0, "2D", 2, 21) // searches for "2D" at line 2, characters 21 to 22 
+requireFileInclude(CURRENT_FILE, 0, "3D", 2, 21) // searches for "3D" at line 2, characters 21 to 22 
+```
 
-This allows to distinguish different (sub)types of objects. Inthis specific case, to disthinguish a 1D <sup>13</sup>C NMR spectra from 1D spectra of other isotope). We need to make this distinction to make a precise list of the content of the archive.
-
+This allows to distinguish different (sub)types of objects. In this specific case, to disthinguish a 1D <sup>13</sup>C NMR spectra from 1D spectra of other isotope). We need to make this distinction to make a precise list of the content of the archive.
 
 ## Determine location in path
 Sometimes a set of objects need to be put toghether. At least this is useful with NMR spectra in Bruker files.
