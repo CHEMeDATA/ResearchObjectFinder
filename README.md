@@ -4,8 +4,8 @@ A more simple methods consits in raising issues [raising issues](https://github.
 ## Finding Chemistry Objects 
 The goal is to locate chemistry objects (chemistry structure file (.mol, .sdf, .cdx), NMR spectra in the Bruker format etc.) inside archives in the .zip format.
 
-The demo .zip files are in located in the **data** folder
-The unziped files are located in the **unzipped** folder (dont add files here - but as .tip in the data folder)
+The demo .zip files WILL BE in located in the **data** folder
+The unziped files WILL BE located in the **unzipped** folder (dont add files here - but as .tip in the data folder)
 
 The folder **specifications** includes the criteria for each type of research object.
 
