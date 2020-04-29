@@ -1,0 +1,2 @@
+requireFileNamed("acqus",2)
+requireFileNamed("fid", 2)

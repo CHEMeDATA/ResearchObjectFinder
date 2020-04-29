@@ -1,0 +1,4 @@
+requireFileNamed("1r")
+requireFileNamed("procs")
+(! requireFileNamed("fid", 2))
+(! requireFileNamed("acqus",2))

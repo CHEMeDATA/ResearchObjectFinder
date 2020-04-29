@@ -1,0 +1,2 @@
+(requireFileExtension(".log") || requireFileExtension(".out"))
+requireFileInclude(_<CURRENT>_,0,"SDF Done")  

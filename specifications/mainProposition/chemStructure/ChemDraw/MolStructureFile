@@ -1,0 +1,1 @@
+(requireFileExtension(".cdxml") || requireFileExtension(".cdx"))

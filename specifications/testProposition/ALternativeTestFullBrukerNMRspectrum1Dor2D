@@ -1,0 +1,4 @@
+requireFileNamed("1r") || requireFileNamed("2rr")
+requireFileNamed("procs")
+requireFileNamed("fid", 2) || requireFileNamed("ser", 2) 
+requireFileNamed("acqus",2)

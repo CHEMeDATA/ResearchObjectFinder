@@ -1,0 +1,2 @@
+requireFileInclude("acqus",2,"##$NUC1= <13C>")  
+requireFileInclude("acqus",2,"dept")  
