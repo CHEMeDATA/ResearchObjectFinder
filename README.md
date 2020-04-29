@@ -7,9 +7,9 @@ This will allow to list them, propose a previous, selective upload, etc.
 
 The demo .zip files WILL BE in located in the **data** folder. 
 
-The unziped files WILL BE located in the **unzipped** folder (dont add files here - but as .tip in the data folder).
+The unziped files WILL BE located in the **unzipped** folder (don't add files here - but as .tip in the data folder).
 
-The folder [**specifications**](specifications/mainProposition/) includes the criteria for each type of research object.
+The folder [**specifications**](https://github.com/CHEMeDATA/ResearchObjectFinder/tree/master/specifications) includes the criteria for each type of research object.
 
 The identification can be done with a:
 1) file with a specific file extension. 
