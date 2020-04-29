@@ -13,10 +13,6 @@ The identification can be done with a:
 1) a file extension extension. Except if specified otherwise, the object will consist in a single file.
 2) a folder with simultaneous presence of one or more files (say fid and acqus in Bruker language). The object include multiple files or all files included in a branch of the file tree.
 
-In some cases, CO can have different levels pointing to the same files. Eg, an "nmr_analysis" can include multiple "nmr_experiments" which may include different "nmr_spectra" (different processing).
-
- ... to be developped ...
-
 
 ## Short list of Chemistry object
 This is a preliminary short version of a [longer list](#long-list-of-chemistry-object) (see below) providing more complex examples.
@@ -91,7 +87,7 @@ means that a given string of characters if found in a given file.
 This allows to distinguish different (sub)types of objects. Inthis specific case, to disthinguish a 1D <sup>13</sup>C NMR spectra from 1D spectra of other isotope). We need to make this distinction to make a precise list of the content of the archive.
 
 
-## Presence of a specific string in a file
+## Determine location in path
 Sometimes a set of objects need to be put toghether. At least this is useful with NMR spectra in Bruker files.
 This function allows to group together all the experiments/spectra located in the same folder
 ```javascript
@@ -102,6 +98,17 @@ For
 CURRENT_PATH = "Volumes/data/studentwork/honey/25/pdata/1/" 
 ```
 it should return `honey`.
+## starting point in file tree of complex objects
+Sometimes a complex objects should include all the files included in a branch
+This function allows to group point to the root of the file to include
+```javascript
+pathRoot = getNamePathUptoLevel(CURRENT_PATH,3); 
+```
+For 
+```
+CURRENT_PATH = "/data/studentwork/honey/25/pdata/1/" 
+```
+it should return `/data/studentwork/honey/`.
 
 ## Long list of Chemistry object
 
