@@ -2,7 +2,7 @@ In progress. To contribute, the most direct manner is to [fork this project](htt
 A more simple methods consits in raising issues [raising issues](https://github.com/CHEMeDATA/ResearchObjectFinder/issues/new).
 
 ## Finding Chemistry Objects 
-The goal is to locate chemistry objects (chemistry structure file (.mol, .sdf, .cdx), NMR spectra in the Bruker format etc.) inside archives in the .zip format.
+The goal is to locate chemistry objects such as chemistry structure file (.mol, .sdf, .cdx), NMR spectra in the Bruker format *etc.* inside archives in the .zip format.
 This will allow to list them, propose a previous, selective upload, etc.
 
 The demo .zip files WILL BE in located in the **data** folder
