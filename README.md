@@ -3,7 +3,7 @@ A more simple methods consits in [raising issues](https://github.com/CHEMeDATA/R
 
 ## Finding Chemistry Objects 
 The goal is to locate chemistry objects such as chemistry structure file (.mol, .sdf, .cdx), NMR spectra in the Bruker format *etc.* inside archives in the .zip format.
-This will allow to list them, propose a previous, selective upload, etc.
+This will allow to list them, propose a preview, selective upload, *etc.*
 
 The zip files and folders are too large for GitHub.
 
