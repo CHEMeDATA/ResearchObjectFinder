@@ -1,5 +1,5 @@
-In progress. To contribute, the most direct manner is to [fork this project](https://github.com/CHEMeDATA/ResearchObjectFinder/edit/master/README.md), make changes and make a pull request.
-A more simple methods consits in [raising issues](https://github.com/CHEMeDATA/ResearchObjectFinder/issues/new).
+**In progress.** If you want to contribute, the most direct manner is to [fork this project](https://github.com/CHEMeDATA/ResearchObjectFinder/edit/master/README.md), make changes and make a pull request.
+A more simple methods consits in [raising issues](https://github.com/CHEMeDATA/ResearchObjectFinder/issues/new). All contributions are welcome!
 
 ## Finding Chemistry Objects 
 The goal is to locate chemistry objects such as chemistry structure file (.mol, .sdf, .cdx), NMR spectra in the Bruker format *etc.* inside archives in the .zip format.
