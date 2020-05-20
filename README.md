@@ -1,23 +1,9 @@
 **In progress.** If you want to contribute, the most direct manner is to [fork this project](https://github.com/CHEMeDATA/ResearchObjectFinder/edit/master/README.md), make changes and make a pull request.
-A more simple methods consits in [raising issues](https://github.com/CHEMeDATA/ResearchObjectFinder/issues/new). All contributions are welcome!
+A more simple methods consits in [submitting a ticket](https://github.com/CHEMeDATA/ResearchObjectFinder/issues/new). All contributions are welcome!
 
 ## Finding Chemistry Objects 
-The goal is to locate chemistry objects such as chemistry structure file (.mol, .sdf, .cdx), NMR spectra in the Bruker format *etc.* inside archives in the .zip format.
-This will allow to list them, propose a preview, selective upload, *etc.*
-
-The zip files and folders are too large for GitHub.
-
-The demo .zip files should be in located in the **data** folder. 
-
-The unziped files should be located in the **unziped** folder.
-
-The folder [**specifications**](https://github.com/CHEMeDATA/ResearchObjectFinder/tree/master/specifications) includes the criteria for each type of research object.
-
-The identification can be done with a:
-1) file with a specific file extension. 
-2) a folder where a set of test about the presence of multiplet files (say fid and acqus in Bruker language) is satisfied. 
-
-The object may include multiple files or all files included in a branch of the file tree.
+The goal is to locate chemistry objects such as chemical structure (.mol, .sdf, .cdx files), NMR spectra in the Bruker format *etc.* inside archives in the .zip format.
+This will allow to list them, propose a preview, selective upload, *etc.* in short: make the data FAIR.
 
 
 ## Short list of Chemistry object
@@ -162,3 +148,30 @@ In chemistry (for example), we often record the "Full analysis" of compounds. It
 - The condition for spectrum object will includes the conditions of FID
 - The conditions about the "full analysis" could be defined based on the list of spectra, without needing to care about the conditions to fullfill for each spectrum.
 - 1D <sup>1</sup>H,<sup>13</sup>C, etc. spectra would be a subclass of 1D spectra
+
+
+## Installation of the demo 
+
+## Get date for the demo
+
+The input should be located in the **data** folder. 
+
+You can get a demo zip using your browser, or, it the file is directly accessible with:
+```javascript
+cd data
+wget ... // not directly accessible use your browser to get it from this page: 
+
+```
+
+The unziped files should be located in the **unziped** folder.
+
+The folder [**specifications**](https://github.com/CHEMeDATA/ResearchObjectFinder/tree/master/specifications) includes the criteria for each type of research object.
+
+The identification can be done with a:
+1) file with a specific file extension. 
+2) a folder where a set of test about the presence of multiple files (say fid and acqus in Bruker language) is satisfied. 
+
+The object may include multiple files or all files included in a branch of the file tree.
+
+The output is:
+

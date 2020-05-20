@@ -1,0 +1,35 @@
+**Ignore	Conditions		Name of the file				main folder	1st 	2nd	Level	classification	basic categories	type of the basic category			Functions should be available		
+	requireFileExtension()	"TYPEstring "".log"""	Guassian output file	requireFileInclude()	"TYPEint 0, TYPEstring ""SCF Done"""		main_proposition	chemicalProperty	Gaussian	10	CHEMeDATAorgV1	ChemicalProperty	GaussianCalculation			obabel::getMol	getEnergy	is Valid
+	requireFileExtension()	"TYPEstring "".txt"""	Guassian output file	requireFileInclude()	"TYPEint 0, TYPEstring ""SCF Done"""		main_proposition	chemicalProperty	Gaussian	10	CHEMeDATAorgV1	ChemicalProperty	GaussianCalculation			obabel::getMol	getEnergy	
+	requireFileExtension()	"TYPEstring "".out"""	Guassian output file	requireFileInclude()	"TYPEint 0, TYPEstring ""SCF Done"""		main_proposition	chemicalProperty	Gaussian	10	CHEMeDATAorgV1	ChemicalProperty	GaussianCalculation			obabel::getMol	getEnergy	
+**Ignore										20	CHEMeDATAorgV1	ChemicalProperty	GaussianCalculation	FrequencyCalculation		GetIRspectrum	Get ZeroPoint Energy	GetConverged SCF / optimgeom
+**Ignore										20	CHEMeDATAorgV1	ChemicalProperty	GaussianCalculation	GeometryOptimization				
+**Ignore										20				shieldingCalculation				
+**Ignore														scalarCouplingCalculation		Get table of J's		
+**Ignore										30				scalarCouplingANDshieldingCalculation		Get table of J's		
+	requireFileExtension()	"TYPEstring "".cdx"""	Chem Draw File				main_proposition	ChemicalStructure	ChemDraw		CHEMeDATAorgV1	ChemicalStructure	ChemDraw			obabel::getMol		
+	requireFileExtension()	"TYPEstring "".cdxml"""	XML Chem Draw File				main_proposition	ChemicalStructure	ChemDraw		CHEMeDATAorgV1	ChemicalStructure	ChemDraw			obabel::getMol		
+**Ignore																		
+	requireFileExtension()	"TYPEstring "".mol"""	MOL file				main_proposition	ChemicalStructure	Mol		CHEMeDATAorgV1	ChemicalStructure	mol structure			is Valid	getImage(size…)	
+	requireFileExtension()	"TYPEstring "".sdf"""	SDF file				main_proposition	ChemicalStructure	SDF		CHEMeDATAorgV1	ChemicalStructure	SDF structure			is Valid	getImage(size…)	
+	requireFileExtension()	"TYPEstring "".mol"""	MOL file	"requireFileInclude(_<CURRENT>_, )"	"0, ""2D"", 2, 21"		main_proposition	ChemicalStructure	Mol		CHEMeDATAorgV1	ChemicalStructure	mol structure (2D)			is Valid	getImage(size…)	
+	requireFileExtension()	"TYPEstring "".sdf"""	SDF file		"0, ""2D"", 2, 21"		main_proposition	ChemicalStructure	SDF		CHEMeDATAorgV1	ChemicalStructure	SDF structure (2D)			is Valid	getImage(size…)	
+	requireFileExtension()	"TYPEstring "".mol"""	MOL file		"0, ""3D"", 2, 21"		main_proposition	ChemicalStructure	Mol		CHEMeDATAorgV1	ChemicalStructure	mol structure (3D)			is Valid	getImage(size…)	
+	requireFileExtension()	"TYPEstring "".sdf"""	SDF file		"0, ""3D"", 2, 21"		main_proposition	ChemicalStructure	SDF		CHEMeDATAorgV1	ChemicalStructure	SDF structure (3D)			is Valid	getImage(size…)	
+**Ignore																		
+											CHEMeDATAorgV1	ChemicalReaction				get reactant… products …		
+																		
+	","																	
+																		
+																		
+											CHEMeDATAorg_sandbox							
+																		
+																		
+																		
+	level is to give priority to higher value (more detailed…)																	
+																		
+																		
+	requireFileInclude()	"TYPEint 0, TYPEstring ""SCF Done"""																
+	requireFileExtension()																	
+	"ExternalTest(string ""wwww.l….. Post something…"")"																	
+	"requireFileInclude(_<CURRENT>_, 0, ""2D"", 2, 21)"																	
