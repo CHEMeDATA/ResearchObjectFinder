@@ -1,0 +1,11 @@
+.cdx
+.cdxml
+.log
+.mol
+.out
+.sdf
+.txt
+acqu2s
+acqus
+proc2s
+procs

@@ -1,0 +1,50 @@
+#!/bin/bash
+input="../data/"
+script="filterzip.source"
+script2="extractzip.source"
+
+echo "#### Prepare list of types of files to look at... from column 3"
+cat mainClassification.txt | iconv -c -t ascii//TRANSLIT |  grep -v "LineToIgnore" > tmp.txt 
+echo "make list of file extension to keep"
+location="3"
+cat tmp.txt | cut -d$'\t' -f$location| tr " " "\n"| sort|uniq | grep "\S"> list_of_file_to_check.txt
+
+echo "#### prepare filter model : unzip -l data/*zip|grep -e "sp$" -e "HPLC.pdf$" |wc"
+for each_zip in `ls $input/*.zip`;do
+echo -n > $script
+echo "work on files in zip : $each_zip "
+echo -n "unzip -Z1 " >>$script
+echo -n $each_zip >>$script
+echo -n " | grep" >>$script
+for toto in `cat list_of_file_to_check.txt`; do
+   echo -n " -e " '"'$toto'"' >>$script
+done
+thisFile=$each_zip"_listFiles.txt"
+echo -n " > $thisFile " >>$script
+echo >>$script
+echo "_______"
+cat $script
+source $script
+
+echo "#### Prepare extraction ..."
+echo -n > $script2
+echo -n "unzip -o -d ../unziped " >>$script2
+echo -n $each_zip >>$script2
+echo -n " " >>$script2
+while read type_file
+do
+  echo -n ' "'$type_file'"' >>$script2
+done < $thisFile
+echo  >>$script2
+cat $script2
+
+echo "file list is treated"
+for type_file in `cat list_of_file_to_check.txt`; do
+cat  $each_zip""_listFiles.txt | grep -r "$type_file"'$' > tmp_list_given_type.txt
+number=`cat  tmp_list_given_type.txt|wc -l`
+echo "work on " $number " files of type  "  $type_file 
+
+echo "test additional condition presence of given text at given line in column "
+
+done
+done

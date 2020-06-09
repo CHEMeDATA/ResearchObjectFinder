@@ -1,0 +1,1 @@
+;;.out .log .txt;"""SCF Done""";;;;;;;;;;;Gaussian file;100;CHEMeDATAorgV1;ChemicalStructure;GaussianStructure;;;;;;obabel::getMol;getEnergy;is Valid;

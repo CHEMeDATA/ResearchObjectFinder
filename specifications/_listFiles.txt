@@ -1,0 +1,2 @@
+List name, date/time, attribute, size, compression method, etc., about files
+  -C  be case-insensitive     -M  page output through built-in "more"

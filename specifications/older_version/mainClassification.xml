@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+<Objects>
+    <.out .log .txt>.out .log .txt</.out .log .txt>
+    <"""SCF Done""">"""SCF Done"""</"""SCF Done""">
+    <Gaussian file>Gaussian file</Gaussian file>
+    <100>100</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>ChemicalStructure</ChemicalStructure>
+    <GaussianStructure>GaussianStructure</GaussianStructure>
+    <obabel::getMol>obabel::getMol</obabel::getMol>
+    <getEnergy>getEnergy</getEnergy>
+    <is Valid>is Valid</is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>.cdx</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>ChemDraw File</Gaussian file>
+    <100>10</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>ChemicalStructure</ChemicalStructure>
+    <GaussianStructure>ChemDraw</GaussianStructure>
+    <obabel::getMol>obabel::getMol</obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>.cdxml</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>XML ChemDraw File</Gaussian file>
+    <100>10</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>ChemicalStructure</ChemicalStructure>
+    <GaussianStructure>ChemDraw</GaussianStructure>
+    <obabel::getMol>obabel::getMol</obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>.mol</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>MOL file</Gaussian file>
+    <100>10</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>ChemicalStructure</ChemicalStructure>
+    <GaussianStructure>mol structure</GaussianStructure>
+    <obabel::getMol>is Valid</obabel::getMol>
+    <getEnergy>getImage(size)</getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>.sdf</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>SDF file</Gaussian file>
+    <100>10</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>ChemicalStructure</ChemicalStructure>
+    <GaussianStructure>SDF structure</GaussianStructure>
+    <obabel::getMol>is Valid</obabel::getMol>
+    <getEnergy>getImage(size)</getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>.mol</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>MOL file</Gaussian file>
+    <100>20</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>ChemicalStructure</ChemicalStructure>
+    <GaussianStructure>mol structure (2D)</GaussianStructure>
+    <obabel::getMol>is Valid</obabel::getMol>
+    <getEnergy>getImage(size)</getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>.sdf</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>SDF file</Gaussian file>
+    <100>20</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>ChemicalStructure</ChemicalStructure>
+    <GaussianStructure>SDF structure (2D)</GaussianStructure>
+    <obabel::getMol>is Valid</obabel::getMol>
+    <getEnergy>getImage(size)</getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>.mol</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>MOL file</Gaussian file>
+    <100>20</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>ChemicalStructure</ChemicalStructure>
+    <GaussianStructure>mol structure (3D)</GaussianStructure>
+    <obabel::getMol>is Valid</obabel::getMol>
+    <getEnergy>getImage(size)</getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>.sdf</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>SDF file</Gaussian file>
+    <100>20</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>ChemicalStructure</ChemicalStructure>
+    <GaussianStructure>SDF structure (3D)</GaussianStructure>
+    <obabel::getMol>is Valid</obabel::getMol>
+    <getEnergy>getImage(size)</getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>.sdf</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>NMReDATA SDF file</Gaussian file>
+    <100>20</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>ChemicalProperty</ChemicalStructure>
+    <GaussianStructure>NMReDATA</GaussianStructure>
+    <obabel::getMol>is Valid</obabel::getMol>
+    <getEnergy>getImage(size)</getEnergy>
+    <is Valid>getMol</is Valid>
+    <>getNMRAssignment</>
+  </Object>
+    <.out .log .txt>acqus</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker 1D NMR experiment (FID only / no spectrum)</Gaussian file>
+    <100>10</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>procs</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker Full 1D NMR spectrum</Gaussian file>
+    <100>20</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>procs</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker 1D spectrum (no FID)</Gaussian file>
+    <100>10</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>procs</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker 1D 1H spectrum</Gaussian file>
+    <100>30</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>procs</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker 1D 13C spectrum (general)</Gaussian file>
+    <100>30</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>procs</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker 1D 19F spectrum (general)</Gaussian file>
+    <100>30</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>procs</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker 1D 31P spectrum (general)</Gaussian file>
+    <100>30</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>procs</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker 1D 2H spectrum (general)</Gaussian file>
+    <100>30</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>procs</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker 1D DEPT spectrum</Gaussian file>
+    <100>40</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>procs</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker 1D 13C spectrum</Gaussian file>
+    <100>40</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>acqu2s</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker 2D NMR experiment (SER only / no spectrum)</Gaussian file>
+    <100>10</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>proc2s</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker Full 2D NMR spectrum</Gaussian file>
+    <100>20</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>proc2s</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker 2D spectrum only (no FID)</Gaussian file>
+    <100>10</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>proc2s</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker Full 1H detected 2D NMR spectrum</Gaussian file>
+    <100>30</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>proc2s</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker Full 1H-1H 2D NMR spectrum</Gaussian file>
+    <100>40</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>proc2s</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker Full COSY 2D NMR spectrum</Gaussian file>
+    <100>50</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>proc2s</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker Full NOESY 2D NMR spectrum</Gaussian file>
+    <100>50</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>proc2s</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker Full 1H-1H 2D NMR spectrum</Gaussian file>
+    <100>40</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>proc2s</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker Full HSQC 2D NMR spectrum</Gaussian file>
+    <100>50</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt>proc2s</.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file>Bruker Full HMBC 2D NMR spectrum</Gaussian file>
+    <100>50</100>
+    <CHEMeDATAorgV1>CHEMeDATAorgV1</CHEMeDATAorgV1>
+    <ChemicalStructure>Spectroscopy</ChemicalStructure>
+    <GaussianStructure>NMR</GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+    <.out .log .txt></.out .log .txt>
+    <"""SCF Done"""></"""SCF Done""">
+    <Gaussian file></Gaussian file>
+    <100></100>
+    <CHEMeDATAorgV1></CHEMeDATAorgV1>
+    <ChemicalStructure></ChemicalStructure>
+    <GaussianStructure></GaussianStructure>
+    <obabel::getMol></obabel::getMol>
+    <getEnergy></getEnergy>
+    <is Valid></is Valid>
+    <></>
+  </Object>
+</Objects>
