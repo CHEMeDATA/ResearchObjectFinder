@@ -82,7 +82,6 @@ for toto in `cat list_of_file_to_check.txt`; do
       	     echo "   }"  >> $cppFile
 
 done
-echo "   }"  >> $cppFile
 
 ## Initialization
 cat  uncommentedASCIIlist.txt| cut -d$'\t' -f15>curListInit.txt
