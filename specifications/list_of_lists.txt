@@ -2,3 +2,5 @@ done with :  ../data//62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt
 done with :  ../data//62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt
 ../data//62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt
 ../data//62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6_bis_to_del.zip_listFiles.txt
+../data//62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt
+../data//62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6_bis_to_del.zip_listFiles.txt

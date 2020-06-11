@@ -12,6 +12,8 @@ script2="extractzip.source"
 
 echo "#### prepare filter model ..."
 echo -n "Will unzip "
+echo  > $listOfList
+
 for each_zip in `ls $input/*.zip`;do
 echo -n > $script
 echo -n "unzip -Z1 " >>$script
