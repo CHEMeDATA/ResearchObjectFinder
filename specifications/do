@@ -1,34 +1,40 @@
 #!/bin/bash
+## this is supposed to extract only the necessary files... to create list of objects (to generate objects change below....)
+
+onlytouch="yes"
+
+## unzip -o -d ../unziped ../data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6_bis_to_del.zip
 input="../data/"
+output="../unziped"
 script="filterzip.source"
 script2="extractzip.source"
 
-echo "#### Prepare list of types of files to look at... from column 3"
-cat mainClassification.txt | iconv -c -t ascii//TRANSLIT |  grep -v "LineToIgnore" > tmp.txt 
-echo "make list of file extension to keep"
-location="3"
-cat tmp.txt | cut -d$'\t' -f$location| tr " " "\n"| sort|uniq | grep "\S"> list_of_file_to_check.txt
 
-echo "#### prepare filter model : unzip -l data/*zip|grep -e "sp$" -e "HPLC.pdf$" |wc"
+echo "#### prepare filter model ..."
+echo -n "Will unzip "
 for each_zip in `ls $input/*.zip`;do
 echo -n > $script
-echo "work on files in zip : $each_zip "
 echo -n "unzip -Z1 " >>$script
 echo -n $each_zip >>$script
 echo -n " | grep" >>$script
 for toto in `cat list_of_file_to_check.txt`; do
-   echo -n " -e " '"'$toto'"' >>$script
+   echo -n " -e " '"'$toto'$"' >>$script
+   echo -n  $toto" "
 done
+   echo "files."
+echo "work on files in zip : $each_zip "
+
 thisFile=$each_zip"_listFiles.txt"
 echo -n " > $thisFile " >>$script
 echo >>$script
-echo "_______"
+echo "Running : "
 cat $script
 source $script
+numberl=`cat  $thisFile |wc -l`
 
-echo "#### Prepare extraction ..."
+echo "#### Prepare extraction of "$numberl" main files ..."
 echo -n > $script2
-echo -n "unzip -o -d ../unziped " >>$script2
+echo -n "unzip -o -q -d $output " >>$script2
 echo -n $each_zip >>$script2
 echo -n " " >>$script2
 while read type_file
@@ -36,15 +42,27 @@ do
   echo -n ' "'$type_file'"' >>$script2
 done < $thisFile
 echo  >>$script2
-cat $script2
+echo "Running extraction of main files..."
+source $script2
 
-echo "file list is treated"
+
+cat list_of_related_files2.txt | tail +2 > tmpdellist.txt
+./doRelated.sh $thisFile $each_zip 
+
+cat list_of_related_files1.txt | tail +2 > tmpdellist.txt
+#### Here two possibilites
+#### if only touch 
+if [ "$onlytouch" == "yes" ]; then
+ ./doRelated_create_empty.sh $thisFile $each_zip $output
+else
+#### if need files (to create objects...) 
+./doRelated.sh $thisFile $each_zip 
+fi
+
+echo "Comments:"
 for type_file in `cat list_of_file_to_check.txt`; do
 cat  $each_zip""_listFiles.txt | grep -r "$type_file"'$' > tmp_list_given_type.txt
 number=`cat  tmp_list_given_type.txt|wc -l`
-echo "work on " $number " files of type  "  $type_file 
-
-echo "test additional condition presence of given text at given line in column "
-
+echo "Will work on "$number" files of type "$type_file 
 done
 done
