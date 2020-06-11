@@ -65,4 +65,10 @@ cat  $each_zip""_listFiles.txt | grep -r "$type_file"'$' > tmp_list_given_type.t
 number=`cat  tmp_list_given_type.txt|wc -l`
 echo "Will work on "$number" files of type "$type_file 
 done
+listOfList="list_of_lists.txt"
+echo "done with : "  $each_zip "_listFiles.txt ..."
+echo  $each_zip"_listFiles.txt">> $listOfList
+
 done
+echo "lists of files in "$listOfList
+cat  $listOfList

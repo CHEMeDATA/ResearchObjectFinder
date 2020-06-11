@@ -20,7 +20,7 @@ echo "#reference file, related filename to read, relative position in the path">
 for toto in `cat list_of_file_to_check.txt`; do
 # get the lines for this type of file
    to_catch='"'$toto'"'
-   	     echo "  if(currFileName.compare(\""$toto"\") == 0) {"  >> $cppFile
+   	     echo "  if(currFileName.find(\""$toto"\") > 0) {"  >> $cppFile
    	     echo "    switch(caseNumber) {"  >> $cppFile
 
    cat uncommentedASCIIlist.txt |  cut -d$'\t' -f$location| grep -n $to_catch | cut -d":" -f1 > tmp_list_line_number.txt
@@ -63,6 +63,17 @@ for toto in `cat list_of_file_to_check.txt`; do
 		echo "for field <"$field"> 4 :===: " $lineContent
 		charContent=`echo  $field | cut -d"," -f5 `
 		echo "for field <"$field"> 5 :===: " $charContent
+
+		# comment...
+		echo -n "      if (debug) cout << \""$notta"test in "$fileNs"(-"$relativePathPosition2") for <"$contentString">"  >> $cppFile
+		if [ "$lineContent" != "" ]; then 
+		  echo -n " line: "$lineContent >> $cppFile
+		fi
+		if [ "$charContent" != "" ]; then 
+			echo -n " char: "$charContent >> $cppFile
+		fi
+		echo " \" << endl;" >> $cppFile
+
 		echo -n "       condition = condition && (">> $cppFile
 		echo -n " "$notta" " >> $cppFile
 		echo -n "test(currentFile, \""$fileNs"\", "$relativePathPosition2", \""$contentString"\"" >> $cppFile
@@ -95,7 +106,8 @@ cat  uncommentedASCIIlist.txt| cut -d$'\t' -f19>curListInit.txt
 ./callInitializer.sh Type $cppFile2
 cat  uncommentedASCIIlist.txt| cut -d$'\t' -f20>curListInit.txt
 ./callInitializer.sh SubType $cppFile2
-
+cat  uncommentedASCIIlist.txt| cut -d$'\t' -f3>curListInit.txt
+./callInitializer.sh fileKey $cppFile2
 rm tmp_list_line_number.txt
 rm tmp_conditions_in_diff_lines.txt
 cat list_of_related_files1.txt | sort | uniq > list_of_related_filesTMP.txt

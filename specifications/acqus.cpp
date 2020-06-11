@@ -4,12 +4,13 @@
 #include <vector>
 #include <string>
 
+// HERE : set up readding stdin... filelist...
 using namespace std;
 /*
 
 ./compileList.sh
-
-reset; clang++ acqus.cpp -o acqus.o ; ./acqus.o
+./do
+reset; clang++ acqus.cpp -o acqus.o ; ./acqus.o "../data//62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt"
 
 */
 bool testLine(string line, string testedString, int whereFistChar = 0)
@@ -44,15 +45,24 @@ int main (){
 string currentFile="";///HERE 
 
 //   if(currFileName.compare(".out") == 0) {
-string currFileName="";///HERE 
-int caseNumber=4;///HERE
+string currFileName=".mol";///HERE 
 bool condition = true;//HERE
+int addme = -1;
+bool debug = true;
+  for (int caseNumber = 1; caseNumber <= 32; caseNumber++) {
+  // This is testing if current
+
+// if not first
+debug = 0;
+
 #include "forCprog.txt"
+// dump crit if 
 
-if (condition) {
-	cout << "true" << endl;
-}else{
-	cout << "false" << endl;
-
-}
+	if (condition) {
+		cout << "YES:::::: " << caseNumber << ": " << ObjTitle[caseNumber + addme] << " " << "FileKey: " <<  fileKey[caseNumber + addme] << " ";
+	}else{
+		cout << "NO        " << caseNumber << ": " << ObjTitle[caseNumber + addme] << " " << "FileKey: " <<  fileKey[caseNumber + addme] << " ";
+	}
+	cout << endl;
+  }
 }
