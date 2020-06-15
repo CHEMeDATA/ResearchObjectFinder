@@ -48,7 +48,8 @@ for toto in `cat list_of_file_to_check.txt`; do
 		relativePathPosition=`echo  $fieldf | cut -d"," -f2 `
 		echo "for field <"$field"> 2 :===: " $relativePathPosition
 		contentString=`echo  $field | cut -d"," -f3 `
-		echo "for field <"$fieldf"> 3 :===: " $contentString
+		echo "for field <"$fieldf"> 3 :=-=: " $contentString
+		echo "for field <"$field"> 3 :=_=: " $contentString
 		if [ "$fileNs" != "" ]; then
 			if [ "$contentString" == "" ]; then
 				echo "for file type " $toto " also test file existance " $fileNs " at rel position " $relativePathPosition2

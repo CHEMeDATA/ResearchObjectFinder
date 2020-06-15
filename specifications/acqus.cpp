@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
+#include <filesystem>
 // HERE : set up readding stdin... filelist...
 using namespace std;
 /*
@@ -16,8 +16,9 @@ program
 # extracts only the part of the zip file necessary for identification of objects
 ./do
 # create the objets metadata
-reset; clang++ acqus.cpp -o acqus.o ; ./acqus.o
-"../data//62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt"
+reset; clang++ acqus.cpp -o acqus.o ; ./acqus.o "../data//62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt"
+./acqus.o "../unziped/data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6/researchdata/NMR Files per compound/3a_Bn-18C6/10/pdata/1/procs"
+./acqus.o "../unziped/data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6/researchdata/NMR Files per compound/3a_Bn-18C6/15/pdata/1/proc2s"
 
 */
 inline bool testLine(const string &line, const string &testedString, const  int &whereFistChar) {
@@ -37,22 +38,43 @@ inline bool testLine(const string &line, const string &testedString, const  int 
 bool test(const string &currentFile, const string &testingName,
           const int &location, string what = string(""), int whereline = 0,
           int whereFistChar = 0, string supp = string("")) {
-  /*std::cout << "-------------------------------------- " << '\n';
-  std::cout << "testing : " << currentFile << '\n';
-  std::cout << "what : " << what << '\n';
-  std::cout << "whereline : " << whereline << '\n';
-  std::cout << "whereFistChar : " << whereFistChar << '\n';
-  std::cout << "testingName : " << testingName << '\n';
-  std::cout << "location : " << location << '\n';*/
+ /* std::cout << "-------------------------------------- " << '\n';
+  std::cout << " testing : " << currentFile ;
+  std::cout << " what : <" << what << ">";
+  std::cout << " whereline : " << whereline ;
+  std::cout << " whereFistChar : " << whereFistChar ;
+  std::cout << " testingName : " << testingName ;
+  std::cout << " location : " << location << endl;*/
+
+  // file true location
+  string folderSeparator = "/";
+  std::size_t foundSep = currentFile.find_last_of(folderSeparator);
+  string fn = currentFile.substr(foundSep + 1);
+  string workPath = currentFile.substr(0, foundSep);
+  for (int index = 0; index < location ; index++ ) {
+			foundSep = workPath.find_last_of(folderSeparator);
+			workPath = workPath.substr(0, foundSep);
+			 // std::cout << "<path: " << workPath << '\n';
+  }
+  workPath.append(folderSeparator);
+  workPath.append(testingName);
+
+  //std::cout << "_path: " << workPath << '\n';
 
   ifstream fileStream;
   bool found;
-  // file true location
-
-  // here takes into account change of file name...
-
-  fileStream.open(currentFile);
   string line = "";
+
+  // attemps to open...
+  fileStream.open(workPath);
+  if (!fileStream.is_open()) { // file does not exist 
+    return false;
+  }  
+  if (what.empty()) { // file exists and this is all that is required
+    return true;
+  }  
+
+  // OK open, search for something...
   // fast forward
   if (whereline > 0) {
     for (int i = 0; i < whereline - 1; i++) {
@@ -61,14 +83,14 @@ bool test(const string &currentFile, const string &testingName,
         return false;
       }
     }
- //   std::cout << "Reached the only tested line: " << whereline << '\n';
+    //   std::cout << "Reached the only tested line: " << whereline << '\n';
   }
   // central read
   if (!getline(fileStream, line)) {
     fileStream.close();
     return false;
   }
-  //std::cout << "First tested line : " << line << '\n';
+  // std::cout << "First tested line : " << line << '\n';
 
   // testing ...
   found = testLine(line, what, whereFistChar);
@@ -134,8 +156,8 @@ int main(int argc, char **argv) {
       //std::cout << "++testingName : " << currFileName << '\n';
 
 #include "forCprog.txt"
-     //     cout << "condition  " << condition << ": " << endl;
-     //     cout << "condition2 " << condition2 << ": " << endl;
+        //  cout << "condition  " << condition << ": " << endl;
+       //   cout << "condition2 " << condition2 << ": " << endl;
 
 
 condition = condition && condition2;
@@ -148,12 +170,12 @@ condition = condition && condition2;
       debug = debutStore;
       if (debug) {
         if (condition) {
-          cout << "YES:::::: " << caseNumber - 1 << ": " << ObjTitle[caseNumber - 1]
+          cout << "YES:::::: " << caseNumber << ": " << ObjTitle[caseNumber - 1]
                << " "
                << "FileKey: " << fileKey[caseNumber - 1] << " ";
-         // } else {
+          // } else {
           //   cout << "NO        " << caseNumber - 1 << ": "
-          //       << ObjTitle[caseNumber - 1] << " "
+          //       << ObjTitle[caseNumber ] << " "
           //       << "FileKey: " << fileKey[caseNumber - 1] << " ";
           cout << endl;
         }
