@@ -37,7 +37,7 @@ currentFile_fixed=$pathcut"/"$fileName
 done < tmpList.txt
 echo  >>$script3
 echo "Running preparation of related files..."
-source $script3 &>ignoreWarnings >> list_of_files_need_to_be_touched.txt
+source $script3 &>ignoreWarningsempty >> list_of_files_need_to_be_touched.txt
 done < tmpdellist.txt
 
 echo "Running creation of empty files files..."

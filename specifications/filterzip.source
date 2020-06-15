@@ -1,1 +1,1 @@
-unzip -Z1 ../data//62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6_bis_to_del.zip | grep -e  ".cdx$" -e  ".cdxml$" -e  ".log$" -e  ".mol$" -e  ".out$" -e  ".sdf$" -e  ".txt$" -e  "acqu2s$" -e  "acqus$" -e  "proc2s$" -e  "procs$" > ../data//62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6_bis_to_del.zip_listFiles.txt 
+unzip -Z1 ../data//prepareYaretaFolderNasca_phyto.zip | grep -e  ".cdx$" -e  ".cdxml$" -e  ".log$" -e  ".mol$" -e  ".out$" -e  ".sdf$" -e  ".txt$" -e  "acqu2s$" -e  "acqus$" -e  "proc2s$" -e  "procs$" | grep -v  __MACOSX  > ../data//prepareYaretaFolderNasca_phyto.zip_listFiles.txt 

@@ -28,6 +28,8 @@ done
 echo "work on files in zip : $each_zip "
 
 thisFile=$each_zip"_listFiles.txt"
+__MACOSX
+echo -n " | grep -v  __MACOSX " >>$script
 echo -n " > $thisFile " >>$script
 echo >>$script
 echo "Running : "
