@@ -1,270 +1,302 @@
-  if(currFileName.find(".cdx") > 0) {
+  if(currFileName.find(".cdx") != std::string::npos) {
     switch(caseNumber) {
     case  2 :
+       condition2 = true;
        break; 
      }
    }
-  if(currFileName.find(".cdxml") > 0) {
+  if(currFileName.find(".cdxml") != std::string::npos) {
     switch(caseNumber) {
     case  3 :
+       condition2 = true;
        break; 
      }
    }
-  if(currFileName.find(".log") > 0) {
+  if(currFileName.find(".log") != std::string::npos) {
     switch(caseNumber) {
     case  1 :
+       condition2 = true;
        break; 
      }
    }
-  if(currFileName.find(".mol") > 0) {
+  if(currFileName.find(".mol") != std::string::npos) {
     switch(caseNumber) {
     case  4 :
+       condition2 = true;
        break; 
     case  6 :
-      if (debug) cout << " test in (-0) for <2D> line: 2 char: 21 " << endl;
+       if (debug) cout << " test in (-0) for <2D> line: 2 char: 21 " << endl;
        condition = condition && (   test(currentFile, "", 0, "2D", 2, 21)); 
+       condition2 = true;
        break; 
     case  8 :
-      if (debug) cout << " test in (-0) for <3D> line: 2 char: 21 " << endl;
+       if (debug) cout << " test in (-0) for <3D> line: 2 char: 21 " << endl;
        condition = condition && (   test(currentFile, "", 0, "3D", 2, 21)); 
+       condition2 = true;
        break; 
      }
    }
-  if(currFileName.find(".out") > 0) {
+  if(currFileName.find(".out") != std::string::npos) {
     switch(caseNumber) {
     case  1 :
+       condition2 = true;
        break; 
      }
    }
-  if(currFileName.find(".sdf") > 0) {
+  if(currFileName.find(".sdf") != std::string::npos) {
     switch(caseNumber) {
     case  5 :
+       condition2 = true;
        break; 
     case  7 :
-      if (debug) cout << " test in (-0) for <2D> line: 2 char: 21 " << endl;
+       if (debug) cout << " test in (-0) for <2D> line: 2 char: 21 " << endl;
        condition = condition && (   test(currentFile, "", 0, "2D", 2, 21)); 
+       condition2 = true;
        break; 
     case  9 :
-      if (debug) cout << " test in (-0) for <3D> line: 2 char: 21 " << endl;
+       if (debug) cout << " test in (-0) for <3D> line: 2 char: 21 " << endl;
        condition = condition && (   test(currentFile, "", 0, "3D", 2, 21)); 
+       condition2 = true;
        break; 
     case  10 :
-      if (debug) cout << " test in (-0) for <><NMREDATA_> " << endl;
+       if (debug) cout << " test in (-0) for <><NMREDATA_> " << endl;
        condition = condition && (   test(currentFile, "", 0, "><NMREDATA_")); 
+       condition2 = true;
        break; 
      }
    }
-  if(currFileName.find(".txt") > 0) {
+  if(currFileName.find(".txt") != std::string::npos) {
     switch(caseNumber) {
     case  1 :
+       condition2 = true;
        break; 
      }
    }
-  if(currFileName.find("acqu2s") > 0) {
+  if(currFileName.find("acqu2s") != std::string::npos) {
     switch(caseNumber) {
     case  21 :
-      if (debug) cout << " test in ser(-0) for <> " << endl;
+       if (debug) cout << " test in ser(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "ser", 0, "")); 
-      if (debug) cout << " test in acqus(-0) for <> " << endl;
+       if (debug) cout << " test in acqus(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "acqus", 0, "")); 
+       condition2 = true;
        break; 
      }
    }
-  if(currFileName.find("acqus") > 0) {
+  if(currFileName.find("acqus") != std::string::npos) {
     switch(caseNumber) {
     case  11 :
-      if (debug) cout << " test in fid(-0) for <> " << endl;
+       if (debug) cout << " test in fid(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "fid", 0, "")); 
+       condition2 = true;
        break; 
      }
    }
-  if(currFileName.find("proc2s") > 0) {
+  if(currFileName.find("proc2s") != std::string::npos) {
     switch(caseNumber) {
     case  22 :
-      if (debug) cout << " test in ser(-2) for <> " << endl;
+       if (debug) cout << " test in ser(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "ser", 2, "")); 
-      if (debug) cout << " test in 2rr(-0) for <> " << endl;
+       if (debug) cout << " test in 2rr(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "2rr", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <> " << endl;
+       if (debug) cout << " test in acqus(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "")); 
-      if (debug) cout << " test in procs(-0) for <> " << endl;
+       if (debug) cout << " test in procs(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "procs", 0, "")); 
-      if (debug) cout << " test in acqu2s(-2) for <> " << endl;
+       if (debug) cout << " test in acqu2s(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "acqu2s", 2, "")); 
+       condition2 = true;
        break; 
     case  23 :
-      if (debug) cout << " test in 2rr(-0) for <> " << endl;
+       if (debug) cout << " test in 2rr(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "2rr", 0, "")); 
-      if (debug) cout << " test in procs(-0) for <> " << endl;
+       if (debug) cout << " test in procs(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "procs", 0, "")); 
+       condition2 = true;
        break; 
     case  24 :
-      if (debug) cout << " test in ser(-2) for <> " << endl;
+       if (debug) cout << " test in ser(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "ser", 2, "")); 
-      if (debug) cout << " test in 2rr(-0) for <> " << endl;
+       if (debug) cout << " test in 2rr(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "2rr", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<1H>")); 
-      if (debug) cout << " test in procs(-0) for <> " << endl;
+       if (debug) cout << " test in procs(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "procs", 0, "")); 
-      if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<1H>> " << endl;
+       if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<1H>> " << endl;
        condition = condition && (   test(currentFile, "acqu2s", 2, "##$NUC1=<1H>")); 
+       condition2 = true;
        break; 
     case  25 :
-      if (debug) cout << " test in ser(-2) for <> " << endl;
+       if (debug) cout << " test in ser(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "ser", 2, "")); 
-      if (debug) cout << " test in 2rr(-0) for <> " << endl;
+       if (debug) cout << " test in 2rr(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "2rr", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<1H>")); 
-      if (debug) cout << " test in procs(-0) for <> " << endl;
+       if (debug) cout << " test in procs(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "procs", 0, "")); 
-      if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<1H>> " << endl;
+       if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<1H>> " << endl;
        condition = condition && (   test(currentFile, "acqu2s", 2, "##$NUC1=<1H>")); 
+       condition2 = true;
        break; 
     case  26 :
-      if (debug) cout << " test in ser(-2) for <> " << endl;
+       if (debug) cout << " test in ser(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "ser", 2, "")); 
-      if (debug) cout << " test in 2rr(-0) for <> " << endl;
+       if (debug) cout << " test in 2rr(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "2rr", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<1H>")); 
-      if (debug) cout << " test in procs(-0) for <> " << endl;
+       if (debug) cout << " test in procs(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "procs", 0, "")); 
-      if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<1H>> " << endl;
+       if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<1H>> " << endl;
        condition = condition && (   test(currentFile, "acqu2s", 2, "##$NUC1=<1H>")); 
-      if (debug) cout << " test in acqus(-2) for <cosy> " << endl;
+       if (debug) cout << " test in acqus(-2) for <cosy> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "cosy")); 
+       condition2 = true;
        break; 
     case  27 :
-      if (debug) cout << " test in ser(-2) for <> " << endl;
+       if (debug) cout << " test in ser(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "ser", 2, "")); 
-      if (debug) cout << " test in 2rr(-0) for <> " << endl;
+       if (debug) cout << " test in 2rr(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "2rr", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<1H>")); 
-      if (debug) cout << " test in procs(-0) for <> " << endl;
+       if (debug) cout << " test in procs(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "procs", 0, "")); 
-      if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<1H>> " << endl;
+       if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<1H>> " << endl;
        condition = condition && (   test(currentFile, "acqu2s", 2, "##$NUC1=<1H>")); 
-      if (debug) cout << "!test in acqus(-2) for <noesy> " << endl;
+       if (debug) cout << "!test in acqus(-2) for <noesy> " << endl;
        condition = condition && ( ! test(currentFile, "acqus", 2, "noesy")); 
+       condition2 = true;
        break; 
     case  28 :
-      if (debug) cout << " test in ser(-2) for <> " << endl;
+       if (debug) cout << " test in ser(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "ser", 2, "")); 
-      if (debug) cout << " test in 2rr(-0) for <> " << endl;
+       if (debug) cout << " test in 2rr(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "2rr", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<1H>")); 
-      if (debug) cout << " test in procs(-0) for <> " << endl;
+       if (debug) cout << " test in procs(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "procs", 0, "")); 
-      if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<13C>> " << endl;
+       if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<13C>> " << endl;
        condition = condition && (   test(currentFile, "acqu2s", 2, "##$NUC1=<13C>")); 
+       condition2 = true;
        break; 
     case  29 :
-      if (debug) cout << " test in ser(-2) for <> " << endl;
+       if (debug) cout << " test in ser(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "ser", 2, "")); 
-      if (debug) cout << " test in 2rr(-0) for <> " << endl;
+       if (debug) cout << " test in 2rr(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "2rr", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<1H>")); 
-      if (debug) cout << " test in procs(-0) for <> " << endl;
+       if (debug) cout << " test in procs(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "procs", 0, "")); 
-      if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<13C>> " << endl;
+       if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<13C>> " << endl;
        condition = condition && (   test(currentFile, "acqu2s", 2, "##$NUC1=<13C>")); 
-      if (debug) cout << " test in acqus(-2) for <inviet> " << endl;
+       if (debug) cout << " test in acqus(-2) for <inviet> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "inviet")); 
+       condition2 = true;
        break; 
     case  30 :
-      if (debug) cout << " test in ser(-2) for <> " << endl;
+       if (debug) cout << " test in ser(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "ser", 2, "")); 
-      if (debug) cout << " test in 2rr(-0) for <> " << endl;
+       if (debug) cout << " test in 2rr(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "2rr", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<1H>")); 
-      if (debug) cout << " test in procs(-0) for <> " << endl;
+       if (debug) cout << " test in procs(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "procs", 0, "")); 
-      if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<13C>> " << endl;
+       if (debug) cout << " test in acqu2s(-2) for <##$NUC1=<13C>> " << endl;
        condition = condition && (   test(currentFile, "acqu2s", 2, "##$NUC1=<13C>")); 
-      if (debug) cout << "!test in acqus(-2) for <inviet> " << endl;
+       if (debug) cout << "!test in acqus(-2) for <inviet> " << endl;
        condition = condition && ( ! test(currentFile, "acqus", 2, "inviet")); 
+       condition2 = true;
        break; 
      }
    }
-  if(currFileName.find("procs") > 0) {
+  if(currFileName.find("procs") != std::string::npos) {
     switch(caseNumber) {
     case  12 :
-      if (debug) cout << " test in fid(-2) for <> " << endl;
+       if (debug) cout << " test in fid(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "fid", 2, "")); 
-      if (debug) cout << " test in 1r(-0) for <> " << endl;
+       if (debug) cout << " test in 1r(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "1r", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <> " << endl;
+       if (debug) cout << " test in acqus(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "")); 
+       condition2 = true;
        break; 
     case  13 :
-      if (debug) cout << " test in 1r(-0) for <> " << endl;
+       if (debug) cout << " test in 1r(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "1r", 0, "")); 
+       condition2 = true;
        break; 
     case  14 :
-      if (debug) cout << " test in fid(-2) for <> " << endl;
+       if (debug) cout << " test in fid(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "fid", 2, "")); 
-      if (debug) cout << " test in 1r(-0) for <> " << endl;
+       if (debug) cout << " test in 1r(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "1r", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<1H>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<1H>")); 
+       condition2 = true;
        break; 
     case  15 :
-      if (debug) cout << " test in fid(-2) for <> " << endl;
+       if (debug) cout << " test in fid(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "fid", 2, "")); 
-      if (debug) cout << " test in 1r(-0) for <> " << endl;
+       if (debug) cout << " test in 1r(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "1r", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<13C>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<13C>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<13C>")); 
+       condition2 = true;
        break; 
     case  16 :
-      if (debug) cout << " test in fid(-2) for <> " << endl;
+       if (debug) cout << " test in fid(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "fid", 2, "")); 
-      if (debug) cout << " test in 1r(-0) for <> " << endl;
+       if (debug) cout << " test in 1r(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "1r", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<19F>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<19F>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<19F>")); 
+       condition2 = true;
        break; 
     case  17 :
-      if (debug) cout << " test in fid(-2) for <> " << endl;
+       if (debug) cout << " test in fid(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "fid", 2, "")); 
-      if (debug) cout << " test in 1r(-0) for <> " << endl;
+       if (debug) cout << " test in 1r(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "1r", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<31P>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<31P>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<31P>")); 
+       condition2 = true;
        break; 
     case  18 :
-      if (debug) cout << " test in fid(-2) for <> " << endl;
+       if (debug) cout << " test in fid(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "fid", 2, "")); 
-      if (debug) cout << " test in 1r(-0) for <> " << endl;
+       if (debug) cout << " test in 1r(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "1r", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<2H>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<2H>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<2H>")); 
+       condition2 = true;
        break; 
     case  19 :
-      if (debug) cout << " test in fid(-2) for <> " << endl;
+       if (debug) cout << " test in fid(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "fid", 2, "")); 
-      if (debug) cout << " test in 1r(-0) for <> " << endl;
+       if (debug) cout << " test in 1r(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "1r", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<13C>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<13C>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<13C>")); 
-      if (debug) cout << " test in acqus(-2) for <##$dept> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$dept> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$dept")); 
+       condition2 = true;
        break; 
     case  20 :
-      if (debug) cout << " test in fid(-2) for <> " << endl;
+       if (debug) cout << " test in fid(-2) for <> " << endl;
        condition = condition && (   test(currentFile, "fid", 2, "")); 
-      if (debug) cout << " test in 1r(-0) for <> " << endl;
+       if (debug) cout << " test in 1r(-0) for <> " << endl;
        condition = condition && (   test(currentFile, "1r", 0, "")); 
-      if (debug) cout << " test in acqus(-2) for <##$NUC1=<13C>> " << endl;
+       if (debug) cout << " test in acqus(-2) for <##$NUC1=<13C>> " << endl;
        condition = condition && (   test(currentFile, "acqus", 2, "##$NUC1=<13C>")); 
-      if (debug) cout << "!test in acqus(-2) for <##$dept> " << endl;
+       if (debug) cout << "!test in acqus(-2) for <##$dept> " << endl;
        condition = condition && ( ! test(currentFile, "acqus", 2, "##$dept")); 
+       condition2 = true;
        break; 
      }
    }

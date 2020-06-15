@@ -20,7 +20,7 @@ echo "#reference file, related filename to read, relative position in the path">
 for toto in `cat list_of_file_to_check.txt`; do
 # get the lines for this type of file
    to_catch='"'$toto'"'
-   	     echo "  if(currFileName.find(\""$toto"\") > 0) {"  >> $cppFile
+   	     echo "  if(currFileName.find(\""$toto"\") != std::string::npos) {"  >> $cppFile
    	     echo "    switch(caseNumber) {"  >> $cppFile
 
    cat uncommentedASCIIlist.txt |  cut -d$'\t' -f$location| grep -n $to_catch | cut -d":" -f1 > tmp_list_line_number.txt
@@ -65,7 +65,7 @@ for toto in `cat list_of_file_to_check.txt`; do
 		echo "for field <"$field"> 5 :===: " $charContent
 
 		# comment...
-		echo -n "      if (debug) cout << \""$notta"test in "$fileNs"(-"$relativePathPosition2") for <"$contentString">"  >> $cppFile
+		echo -n "       if (debug) cout << \""$notta"test in "$fileNs"(-"$relativePathPosition2") for <"$contentString">"  >> $cppFile
 		if [ "$lineContent" != "" ]; then 
 		  echo -n " line: "$lineContent >> $cppFile
 		fi
@@ -84,11 +84,15 @@ for toto in `cat list_of_file_to_check.txt`; do
 			echo -n ", "$charContent >> $cppFile
 		fi
 		echo ")); " >> $cppFile
+
 	   fi
 	  done < tmp_conditions_in_diff_lines.txt
+	  		 echo "       condition2 = true;">> $cppFile
 	  	     echo "       break; " >> $cppFile
 
    done
+ ##     	     echo "     default:"  >> $cppFile
+##			 echo "        condition2 = false;">> $cppFile
       	     echo "     }"  >> $cppFile
       	     echo "   }"  >> $cppFile
 
