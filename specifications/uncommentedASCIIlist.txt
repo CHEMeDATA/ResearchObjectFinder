@@ -1,4 +1,4 @@
-		".out" ".log" ".txt"	"SCF Done"											Gaussian file	100	CHEMeDATAorgV1	ChemicalStructure	GaussianStructure						obabel::getMol	getEnergy	is Valid	
+		".out" ".log" ".txt"	"SCF Done"				TYPEstring "", TYPEint 0, TYPEstring "SCF Done"							Gaussian file	100	CHEMeDATAorgV1	ChemicalStructure	GaussianStructure						obabel::getMol	getEnergy	is Valid	
 		".cdx"												ChemDraw File	10	CHEMeDATAorgV1	ChemicalStructure	ChemDraw						obabel::getMol			
 		".cdxml"												XML ChemDraw File	10	CHEMeDATAorgV1	ChemicalStructure	ChemDraw						obabel::getMol			
 		".mol"												MOL file	10	CHEMeDATAorgV1	ChemicalStructure	mol structure						is Valid	getImage(size...)		

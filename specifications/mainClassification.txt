@@ -10,7 +10,7 @@ LineToIgnore
 LineToIgnore	Name	KEYFile	KEYfile Includes											Name of the object	Level	classification	basic categories	type of the basic category			complement	specifyerForProperties		Functions should be available			
 LineToIgnore	Use	name or extension use "" if file may have any name/extension 			if extension, remove extension and add this…																						
 LineToIgnore	Role	This allows to filter the list of file to analyse using fileHasFileNameOrExtension()	filIncludesText		relatedFileIncludes (filename, if "" same as KEYFile), position in path (0: same, 2: two steps below),(opt:) what is searched, (opt) where (line number), (opt) where (char pos of first)																						
-		".out" ".log" ".txt"	"SCF Done"											Gaussian file	100	CHEMeDATAorgV1	ChemicalStructure	GaussianStructure						obabel::getMol	getEnergy	is Valid	
+		".out" ".log" ".txt"	"SCF Done"				TYPEstring "", TYPEint 0, TYPEstring "SCF Done"							Gaussian file	100	CHEMeDATAorgV1	ChemicalStructure	GaussianStructure						obabel::getMol	getEnergy	is Valid	
 LineToIgnore															10	CHEMeDATAorgV1	ChemicalProperty	GaussianCalculation				GaussianFrequencyCalculation		GetIRspectrum	Get ZeroPoint Energy	GetConverged SCF / optimgeom	
 LineToIgnore															10	CHEMeDATAorgV1	ChemicalProperty	GaussianCalculation				GaussianGeometryOptimization		Get input structure…			
 LineToIgnore															10							GaussianshieldingCalculation					

@@ -1,4 +1,4 @@
 #reference file, related filename to read, relative position in the path
-proc2s acqu2s 2
-proc2s acqus 2
-procs acqus 2
+proc2s acqu2s  2
+proc2s acqus  2
+procs acqus  2
