@@ -1,0 +1,2 @@
+../unziped/data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6/researchdata/NMR Files per compound/3a_Bn-18C6/10/pdata/1/procs
+../unziped/data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6/researchdata/NMR Files per compound/3a_Bn-18C6/15/pdata/1/proc2s

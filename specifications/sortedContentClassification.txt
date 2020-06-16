@@ -1,0 +1,192 @@
+
+
+
+
+
+
+ObjTitle.push_back("Bruker 1D NMR experiment (FID only / no spectrum)"); // 11
+ObjTitle.push_back("Bruker 2D NMR experiment (SER only / no spectrum)"); // 21
+vector<int> Level; // 0
+vector<string> BasicCathegory; // 0
+vector<string> ObjTitle; // 0
+vector<string> SubType; // 0
+vector<string> Type; // 0
+vector<string> fileKey; // 0
+BasicCathegory.push_back("ChemicalStructure"); // 1
+Level.push_back(100); // 1
+ObjTitle.push_back("Gaussian file"); // 1
+SubType.push_back(""); // 1
+Type.push_back("GaussianStructure"); // 1
+fileKey.push_back(".out .log .txt"); // 1
+BasicCathegory.push_back("ChemicalStructure"); // 2
+Level.push_back(10); // 2
+ObjTitle.push_back("ChemDraw File"); // 2
+SubType.push_back(""); // 2
+Type.push_back("ChemDraw"); // 2
+fileKey.push_back(".cdx"); // 2
+BasicCathegory.push_back("ChemicalStructure"); // 3
+Level.push_back(10); // 3
+ObjTitle.push_back("XML ChemDraw File"); // 3
+SubType.push_back(""); // 3
+Type.push_back("ChemDraw"); // 3
+fileKey.push_back(".cdxml"); // 3
+BasicCathegory.push_back("ChemicalStructure"); // 4
+Level.push_back(10); // 4
+ObjTitle.push_back("MOL file"); // 4
+SubType.push_back(""); // 4
+Type.push_back("mol structure"); // 4
+fileKey.push_back(".mol"); // 4
+BasicCathegory.push_back("ChemicalStructure"); // 5
+Level.push_back(10); // 5
+ObjTitle.push_back("SDF file"); // 5
+SubType.push_back(""); // 5
+Type.push_back("SDF structure"); // 5
+fileKey.push_back(".sdf"); // 5
+BasicCathegory.push_back("ChemicalStructure"); // 6
+Level.push_back(20); // 6
+ObjTitle.push_back("MOL file"); // 6
+SubType.push_back(""); // 6
+Type.push_back("mol structure (2D)"); // 6
+fileKey.push_back(".mol"); // 6
+BasicCathegory.push_back("ChemicalStructure"); // 7
+Level.push_back(20); // 7
+ObjTitle.push_back("2D SDF file"); // 7
+SubType.push_back(""); // 7
+Type.push_back("SDF structure (2D)"); // 7
+fileKey.push_back(".sdf"); // 7
+BasicCathegory.push_back("ChemicalStructure"); // 8
+Level.push_back(20); // 8
+ObjTitle.push_back("3D MOL file"); // 8
+SubType.push_back(""); // 8
+Type.push_back("mol structure (3D)"); // 8
+fileKey.push_back(".mol"); // 8
+BasicCathegory.push_back("ChemicalStructure"); // 9
+Level.push_back(20); // 9
+ObjTitle.push_back("3D SDF file"); // 9
+SubType.push_back(""); // 9
+Type.push_back("SDF structure (3D)"); // 9
+fileKey.push_back(".sdf"); // 9
+BasicCathegory.push_back("ChemicalProperty"); // 10
+Level.push_back(20); // 10
+ObjTitle.push_back("NMReDATA SDF file"); // 10
+SubType.push_back(""); // 10
+Type.push_back("NMReDATA"); // 10
+fileKey.push_back(".sdf"); // 10
+BasicCathegory.push_back("Spectroscopy"); // 11
+Level.push_back(10); // 11
+SubType.push_back("1DNMR"); // 11
+Type.push_back("NMR"); // 11
+fileKey.push_back("acqus"); // 11
+BasicCathegory.push_back("Spectroscopy"); // 12
+Level.push_back(20); // 12
+ObjTitle.push_back("Bruker Full 1D NMR spectrum"); // 12
+SubType.push_back("1DNMR"); // 12
+Type.push_back("NMR"); // 12
+fileKey.push_back("procs"); // 12
+BasicCathegory.push_back("Spectroscopy"); // 13
+Level.push_back(10); // 13
+ObjTitle.push_back("Bruker 1D spectrum (no FID)"); // 13
+SubType.push_back("1DNMR"); // 13
+Type.push_back("NMR"); // 13
+fileKey.push_back("procs"); // 13
+BasicCathegory.push_back("Spectroscopy"); // 14
+Level.push_back(30); // 14
+ObjTitle.push_back("Bruker 1D 1H spectrum"); // 14
+SubType.push_back("1DNMR"); // 14
+Type.push_back("NMR"); // 14
+fileKey.push_back("procs"); // 14
+BasicCathegory.push_back("Spectroscopy"); // 15
+Level.push_back(30); // 15
+ObjTitle.push_back("Bruker 1D 13C spectrum (general)"); // 15
+SubType.push_back("1DNMR"); // 15
+Type.push_back("NMR"); // 15
+fileKey.push_back("procs"); // 15
+BasicCathegory.push_back("Spectroscopy"); // 16
+Level.push_back(30); // 16
+ObjTitle.push_back("Bruker 1D 19F spectrum (general)"); // 16
+SubType.push_back("1DNMR"); // 16
+Type.push_back("NMR"); // 16
+fileKey.push_back("procs"); // 16
+BasicCathegory.push_back("Spectroscopy"); // 17
+Level.push_back(30); // 17
+ObjTitle.push_back("Bruker 1D 31P spectrum (general)"); // 17
+SubType.push_back("1DNMR"); // 17
+Type.push_back("NMR"); // 17
+fileKey.push_back("procs"); // 17
+BasicCathegory.push_back("Spectroscopy"); // 18
+Level.push_back(30); // 18
+ObjTitle.push_back("Bruker 1D 2H spectrum (general)"); // 18
+SubType.push_back("1DNMR"); // 18
+Type.push_back("NMR"); // 18
+fileKey.push_back("procs"); // 18
+BasicCathegory.push_back("Spectroscopy"); // 19
+Level.push_back(40); // 19
+ObjTitle.push_back("Bruker 1D DEPT spectrum"); // 19
+SubType.push_back("1DNMR"); // 19
+Type.push_back("NMR"); // 19
+fileKey.push_back("procs"); // 19
+BasicCathegory.push_back("Spectroscopy"); // 20
+Level.push_back(40); // 20
+ObjTitle.push_back("Bruker 1D 13C spectrum"); // 20
+SubType.push_back("1DNMR"); // 20
+Type.push_back("NMR"); // 20
+fileKey.push_back("procs"); // 20
+BasicCathegory.push_back("Spectroscopy"); // 21
+Level.push_back(10); // 21
+SubType.push_back("2DNMR"); // 21
+Type.push_back("NMR"); // 21
+fileKey.push_back("acqu2s"); // 21
+BasicCathegory.push_back("Spectroscopy"); // 22
+Level.push_back(20); // 22
+ObjTitle.push_back("Bruker Full 2D NMR spectrum"); // 22
+SubType.push_back("2DNMR"); // 22
+Type.push_back("NMR"); // 22
+fileKey.push_back("proc2s"); // 22
+BasicCathegory.push_back("Spectroscopy"); // 23
+Level.push_back(10); // 23
+ObjTitle.push_back("Bruker 2D spectrum only (no FID)"); // 23
+SubType.push_back("2DNMR"); // 23
+Type.push_back("NMR"); // 23
+fileKey.push_back("proc2s"); // 23
+BasicCathegory.push_back("Spectroscopy"); // 24
+Level.push_back(30); // 24
+ObjTitle.push_back("Bruker Full 1H detected 2D NMR spectrum"); // 24
+SubType.push_back("2DNMR"); // 24
+Type.push_back("NMR"); // 24
+fileKey.push_back("proc2s"); // 24
+BasicCathegory.push_back("Spectroscopy"); // 25
+Level.push_back(40); // 25
+ObjTitle.push_back("Bruker Full 1H-1H 2D NMR spectrum"); // 25
+SubType.push_back("2DNMR"); // 25
+Type.push_back("NMR"); // 25
+fileKey.push_back("proc2s"); // 25
+BasicCathegory.push_back("Spectroscopy"); // 26
+Level.push_back(50); // 26
+ObjTitle.push_back("Bruker Full COSY 2D NMR spectrum"); // 26
+SubType.push_back("2DNMR"); // 26
+Type.push_back("NMR"); // 26
+fileKey.push_back("proc2s"); // 26
+BasicCathegory.push_back("Spectroscopy"); // 27
+Level.push_back(50); // 27
+ObjTitle.push_back("Bruker Full NOESY 2D NMR spectrum"); // 27
+SubType.push_back("2DNMR"); // 27
+Type.push_back("NMR"); // 27
+fileKey.push_back("proc2s"); // 27
+BasicCathegory.push_back("Spectroscopy"); // 28
+Level.push_back(40); // 28
+ObjTitle.push_back("Bruker Full 1H-1H 2D NMR spectrum"); // 28
+SubType.push_back("2DNMR"); // 28
+Type.push_back("NMR"); // 28
+fileKey.push_back("proc2s"); // 28
+BasicCathegory.push_back("Spectroscopy"); // 29
+Level.push_back(50); // 29
+ObjTitle.push_back("Bruker Full HSQC 2D NMR spectrum"); // 29
+SubType.push_back("2DNMR"); // 29
+Type.push_back("NMR"); // 29
+fileKey.push_back("proc2s"); // 29
+BasicCathegory.push_back("Spectroscopy"); // 30
+Level.push_back(50); // 30
+ObjTitle.push_back("Bruker Full HMBC 2D NMR spectrum"); // 30
+SubType.push_back("2DNMR"); // 30
+Type.push_back("NMR"); // 30
+fileKey.push_back("proc2s"); // 30
