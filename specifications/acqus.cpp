@@ -17,9 +17,7 @@ program
 ./do
 # create the objets metadata
 reset; clang++ acqus.cpp -o acqus.o ;
-./acqus.o "../data//62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt"
-./acqus.o "../unziped/data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6/researchdata/NMR Files per compound/3a_Bn-18C6/10/pdata/1/procs"
-./acqus.o "../unziped/data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6/researchdata/NMR Files per compound/3a_Bn-18C6/15/pdata/1/proc2s"
+./acqus.o ../data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt "" ../unziped/./acqus.o ../data/prepareYaretaFolderNasca_phyto.zip_listFiles.txt "" ../unziped/
 
 */
 
@@ -143,6 +141,8 @@ int main(int argc, char **argv) {
   bool debutStore;
   string line;
   string currFileName;
+  string rootPathReplaceFrom, rootPathReplaceTo;
+  bool replaceRootPath;
  // string currentFile;
   /* class Data {
    public:
@@ -152,25 +152,45 @@ int main(int argc, char **argv) {
   Data data;   data.x.clear();
     data.y.clear();
 */
-  if (argc < 2)return -1;
+  if (argc < 2) {
+    cerr << argv[0] << ": missing input file" << endl;
+    return -1;
+  }
 
   mainfileStream.open(argv[1]);
   if (!mainfileStream.is_open()) { // file does not exist 
+    cerr << argv[0] << ": " << argv[1] << " : no such file or directory" << endl;
     return -1;
-  }  
-  
+  }
+  // change path from original location in zip file to true location
+  if (argc > 3) {
+    rootPathReplaceFrom.assign(argv[2]);
+    rootPathReplaceTo.assign(argv[3]);
+    replaceRootPath = true;
+  } else {
+    replaceRootPath = false;
+  }
+
   //for (int loop = 1; loop < argc; loop++) {
     while(getline(mainfileStream, line)) {
+      
     bestCaseValue = 0.0;
     bestCaseNumber = -1;
-    //currentFile.clear();
-   // currentFile.assign(argv[loop]);
+    // currentFile.clear();
+    // currentFile.assign(argv[loop]);
     currFileName.clear();
     currFileName.assign(line);
-
+    if (replaceRootPath) {
+       //    cout << "before " << currFileName << endl;
+      if (rootPathReplaceFrom.length() > 0)
+      currFileName = currFileName.substr(rootPathReplaceFrom.length());
+       if (rootPathReplaceTo.length() > 0)
+      currFileName.insert(0, rootPathReplaceTo);
+       //           cout << "after " << currFileName  << endl;
+    }
     if (debug) {
-     // cout << "========================================================="
-     //      << endl;
+      // cout << "========================================================="
+      //      << endl;
       cout << "Work on file: " << currFileName ;
       cout << endl;
     }
@@ -224,12 +244,15 @@ int main(int argc, char **argv) {
           // << "FileKey: " << fileKey[caseNumber - 1] << " "
          //  << "Level: " << Level[caseNumber - 1] << " "
            << "<" << line << ">"
-           << " BasicCathegory: " << BasicCathegory 
+           << " BasicCathegory: " << BasicCathegory[caseNumber - 1] 
+           << " Type: " << Type[caseNumber - 1] 
+           << " SubType: " << SubType[caseNumber - 1] 
+           << " fileKey: " << fileKey[caseNumber - 1] 
       // } else {
       //   cout << "NO        " << caseNumber - 1 << ": "
       //       << ObjTitle[caseNumber ] << " "
       //       << "FileKey: " << fileKey[caseNumber - 1] << " ";
-      cout << endl;
+       << endl;
     //} else {
      //  cout << endl;
     }
