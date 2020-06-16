@@ -221,10 +221,10 @@ int main(int argc, char **argv) {
  //          << "" << caseNumber << ":"
            << " \"" << ObjTitle[caseNumber - 1] << "\""
            << " found for file "
-           << "FileKey: " << fileKey[caseNumber - 1] << " "
-           << "Level: " << Level[caseNumber - 1] << " "
-           << ": " << line 
-           << " ";
+          // << "FileKey: " << fileKey[caseNumber - 1] << " "
+         //  << "Level: " << Level[caseNumber - 1] << " "
+           << "<" << line << ">"
+           << " BasicCathegory: " << BasicCathegory 
       // } else {
       //   cout << "NO        " << caseNumber - 1 << ": "
       //       << ObjTitle[caseNumber ] << " "
