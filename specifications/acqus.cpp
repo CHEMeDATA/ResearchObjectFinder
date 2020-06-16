@@ -17,8 +17,9 @@ program
 ./do
 # create the objets metadata
 reset; clang++ acqus.cpp -o acqus.o ;
-./acqus.o ../data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt "" ../unziped/./acqus.o ../data/prepareYaretaFolderNasca_phyto.zip_listFiles.txt "" ../unziped/
-
+./acqus.o ../data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt "" ../unziped/
+./acqus.o ../data/prepareYaretaFolderNasca_phyto.zip_listFiles.txt "" ../unziped/
+./acqus.o ../data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt "" ../unziped/ > demo_archive_yareta.txt
 */
 
 bool hasEnding(const string &fullString,const string &ending) {
@@ -119,7 +120,7 @@ bool test(const string &currentFile, const string &testingName,
     }
     found = testLine(line, what, whereFistChar);
     if (found ) {
-      std::cout << "found : " << what << '\n';
+     // std::cout << "found :" << what << '\n';
       return true;
     }
   }
@@ -200,7 +201,7 @@ int main(int argc, char **argv) {
 
       // Prepare long list of test in forCprog.txt file...
       debutStore = debug;
-      //debug = false;
+      debug = false;
      // if (loop == 1) debug = false;  // was true
         // std::cout << "++testing : " << currentFile << '\n';
         // std::cout << "++testingName : " << currFileName << '\n';
@@ -217,23 +218,27 @@ int main(int argc, char **argv) {
         endl; cout << "condition " << condition << endl; cout << "caseNumber "
         << caseNumber << endl;
       */
-      if ((Level[caseNumber - 1] > bestCaseValue) && condition) {bestCaseValue = Level[caseNumber - 1]; bestCaseNumber = caseNumber;}
+      if ((Level[caseNumber - 1] > bestCaseValue) && condition) {
+        bestCaseValue = Level[caseNumber - 1];
+        bestCaseNumber = caseNumber;
+      }
       debug = debutStore;
-      /* 
-      if (debug) {
-        if (condition) {
-          cout << "YES:::::: " << caseNumber << ": " << ObjTitle[caseNumber - 1]
-               << " "
-               << "FileKey: " << fileKey[caseNumber - 1] << " "
-               << "Level: " << Level[caseNumber - 1] << " ";
-          // } else {
-          //   cout << "NO        " << caseNumber - 1 << ": "
+      
+      if (debug && condition2) {
+        if (condition ) {
+          cout << "YES:::::: " << caseNumber << ": " << ObjTitle[caseNumber - 1];
+               //<< " "
+               //<< "FileKey: " << fileKey[caseNumber - 1] << " "
+               //<< "Level: " << Level[caseNumber - 1] << " ";
+           } else {
+             cout << "NO        " << caseNumber  << ": ";
           //       << ObjTitle[caseNumber ] << " "
           //       << "FileKey: " << fileKey[caseNumber - 1] << " ";
+           }
           cout << endl;
-        }
+        
       }
-      */
+      
     }
     caseNumber = bestCaseNumber;
     if (caseNumber > 0) {
@@ -248,6 +253,7 @@ int main(int argc, char **argv) {
            << " Type: " << Type[caseNumber - 1] 
            << " SubType: " << SubType[caseNumber - 1] 
            << " fileKey: " << fileKey[caseNumber - 1] 
+           << " Level: " << Level[caseNumber - 1] 
       // } else {
       //   cout << "NO        " << caseNumber - 1 << ": "
       //       << ObjTitle[caseNumber ] << " "

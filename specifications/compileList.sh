@@ -38,8 +38,8 @@ for toto in `cat list_of_file_to_check.txt`; do
 		else
 			notta=" "
 		fi
-		field=`echo  $fieldf | sed s/TYPE//g | sed s/string//g | sed s/int//g | sed 's/"//g' | sed 's/!//g' | sed 's/ //' `
-		#field=`echo  $fieldf | sed s/TYPE//g | sed s/string//g | sed s/int//g | sed 's/"//g' | sed 's/!//g'  `
+		#field=`echo  $fieldf | sed s/TYPE//g | sed s/string//g | sed s/int//g | sed 's/"//g' | sed 's/!//g' | sed 's/ //g' `
+		field=`echo  $fieldf | sed s/TYPE//g | sed s/string//g | sed s/int//g | sed 's/"//g' | sed 's/!//g'  `
 		fileNs=`echo  $field | cut -d"," -f1 `
 		echo "for field <"$fieldf"> 1 :===: " $fileN
 		relativePathPosition2=`echo $field | cut -d"," -f2`
@@ -48,9 +48,9 @@ for toto in `cat list_of_file_to_check.txt`; do
 		echo "for field <"$fieldf"> 1 :===: " $fileN
 		relativePathPosition=`echo  $fieldf | cut -d"," -f2 `
 		echo "for field <"$field"> 2 :===: " $relativePathPosition
-		contentString=`echo  $field | cut -d"," -f3 `
-		echo "for field <"$fieldf"> 3 :=-=: " $contentString
-		echo "for field <"$field"> 3 :=_=: " $contentString
+		contentString=`echo  $field | cut -d"," -f3`
+		echo "for field <"$fieldf"> 3 :=-=:"$contentString
+		echo "for field <"$field"> 3 :=_=:"$contentString
 		if [ "$fileNs" != "" ]; then
 			if [ "$contentString" == "" ]; then
 				echo "for file type " $toto " also test file existance " $fileNs " at rel position " $relativePathPosition2
@@ -60,6 +60,7 @@ for toto in `cat list_of_file_to_check.txt`; do
 				echo $toto" "$fileNs" "$relativePathPosition2 >> list_of_related_files2.txt
 			fi
 		fi
+		contentString=`echo  $contentString`
 
 		lineContent=`echo  $field | cut -d"," -f4 `
 		echo "for field <"$field"> 4 :===: " $lineContent
