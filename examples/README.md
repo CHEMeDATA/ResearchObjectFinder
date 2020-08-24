@@ -6,11 +6,11 @@ If the program has been compiled (see [src/cpp](../src/cpp/README.md) `src/cpp/R
 ```
 src/bash/generateChemistryObjects.bash
 ```
-# More details 
+## More details 
 
 The chemisty objects are generated in two steps.
 
-## 1 Extraction of the relevant files from the archive file
+### 1 Extraction of the relevant files from the archive file
 
 The first step uses a shell script (`src/bash/unzipRelevant.bash`) extracting the list of files. It generates a lists of the relevant files in the "_listFiles.txt" file located in the `data` folder. In some cases the second step will need to read the content of some of the files (to test of presence of a keyword, for example). In this case the script will extract the file and store it in the `unziped` folder, otherwise it will just create an empty file.
 
@@ -22,7 +22,7 @@ cd data
 cd ..
 ```
 
-## 2 Analysis of the relevant files 
+### 2 Analysis of the relevant files 
 
 The analysis uses the C++ program `src/cpp/listChemObjects.cpp`.
 
@@ -31,11 +31,11 @@ It includes tests to identify chemistry objects.
 If the criteria for the identification of chemistry objects are included in the program (see [specifications](../specifications/README.md)).
 If they are changed, recompile.
 
-# Compilation 
+## Compilation 
 
 The first time, or if you change the chemistry objects ontology (in the `specification` folder) you have to (re)compile listChemObjects.cpp in `src/cpp`. See `src/cpp/README.md`.
 
-# analysis of the data
+## Analysis of the data
 
 The compiled C++ program reads the relevant files and generates the list of chemisty objects as a json: 
 
