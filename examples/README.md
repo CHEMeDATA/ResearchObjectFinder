@@ -2,9 +2,9 @@
 
 Clone [this repository](https://github.com/CHEMeDATA/ResearchObjectFinder).
 
-Store the archive files (.zip) in the `data` folder. (For example this [yareta record](https://yareta.unige.ch/frontend/archive/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6).)
+Store the archive files (.zip) you want to list the chemistry objets from in the `data` folder. (For example this [yareta record](https://yareta.unige.ch/frontend/archive/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6).)
 
-If the program has been compiled for your system (see [src/cpp](../src/cpp/README.md) `src/cpp/README.md`) a list of the chemistry objects will be generated and stored in the `data/` folder with :
+If the program has been compiled for your system (see [src/cpp](../src/cpp/README.md) `src/cpp/README.md`) a list of the chemistry objects will be generated and stored in the `data/` folder with this bash script:
 ```
 src/bash/generateChemistryObjects.bash
 ```
