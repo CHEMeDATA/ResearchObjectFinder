@@ -1,9 +1,7 @@
 #!/bin/bash
-echo > list_of_files_need_to_be_touched.txt
 
 thisFile=$1
 each_zip=$2
-output=$3
 script3="extractziprelated.source"
 while read line
 do
@@ -12,9 +10,9 @@ refd=$ref"$"
 other=`echo  $line | cut -d" " -f2 `
 pos=`echo  $line | cut -d" " -f3 `
 cat $thisFile| grep -e $ref >tmpList.txt
-echo "#### Prepare touch of files "$other" associated to "$ref" at relative position "$pos
+echo "#### Prepare extraction of files "$other" associated to "$ref" at relative position "$pos
 echo -n > $script3
-echo -n "unzip -Z1 " >>$script3
+echo -n "unzip -o -q -d ../unziped " >>$script3
 echo -n $each_zip >>$script3
 echo -n " " >>$script3
 while read currentFile
@@ -36,19 +34,6 @@ currentFile_fixed=$pathcut"/"$fileName
   echo -n ' "'$currentFile_fixed'"' >>$script3
 done < tmpList.txt
 echo  >>$script3
-echo "Running preparation of related files..."
-source $script3 &>ignoreWarningsempty >> list_of_files_need_to_be_touched.txt
+echo "Running extraction of related files..."
+source $script3 &>ignoreWarnings.txt
 done < tmpdellist.txt
-
-echo "Running creation of empty files files..."
-
-while read currentFile
-do
-if [ "$currentFile" != "" ]; then
-pathi=`echo $currentFile | rev | cut -d"/" -f2- | rev `
-fullpath=$output"/"$pathi
-mkdir -p "$fullpath"
-toTouch=$output"/"$currentFile
-touch "$toTouch"
-fi
-done < list_of_files_need_to_be_touched.txt

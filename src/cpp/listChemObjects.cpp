@@ -1,46 +1,57 @@
 
 #include <math.h>
 
+#include <filesystem>
 #include <fstream>
 #include <iostream>
 #include <string>
 #include <vector>
-#include <filesystem>
-// HERE : set up readding stdin... filelist...
 using namespace std;
+
 /*
 
 # takes the excel sheet with tab sepration and makes code to insert in cpp
 program
-./compileList.sh
+specifications/compileList.sh
 # extracts only the part of the zip file necessary for identification of objects
-./do
-# create the objets metadata
-reset; clang++ acqus.cpp -o acqus.o ;
-./acqus.o ../data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt "" ../unziped/
-./acqus.o ../data/prepareYaretaFolderNasca_phyto.zip_listFiles.txt "" ../unziped/
-./acqus.o ../data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt "" ../unziped/ > demo_archive_yareta.txt
+
+cd data
+../src/bash/unzipRelevant.bash
+cd ..
+
+cd src/cpp
+clang++ listChemObjects.cpp -o listChemObjects.o 
+cd ../..
+
+src/cpp/listChemObjects.o data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt "" unziped/
+src/cpp/listChemObjects.o data/prepareYaretaFolderNasca_phyto.zip_listFiles.txt "" unziped/
+src/cpp/listChemObjects.o data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt "" unziped/ > examples/demo_archive_yareta.json
+
+
 */
 
-bool hasEnding(const string &fullString,const string &ending) {
-    if (fullString.length() >= ending.length()) {
-        return (0 == fullString.compare (fullString.length() - ending.length(), ending.length(), ending));
-    } else {
-        return false;
-    }
+bool hasEnding(const string &fullString, const string &ending) {
+  if (fullString.length() >= ending.length()) {
+    return (0 == fullString.compare(fullString.length() - ending.length(),
+                                    ending.length(), ending));
+  } else {
+    return false;
+  }
 }
 
-inline bool testLine(const string &line, const string &testedString, const  int &whereFistChar) {
+inline bool testLine(const string &line, const string &testedString,
+                     const int &whereFistChar) {
   if (whereFistChar == 0) {
     return (line.find(testedString) != std::string::npos);
   } else {
-  //  cout << " out of this... :  " << line << endl;
-   // cout << " looked only there <"
+    //  cout << " out of this... :  " << line << endl;
+    // cout << " looked only there <"
     //     << line.substr(whereFistChar - 1, testedString.length()) << ">"
-     //    << endl;
-   // cout << " out of this cut ...testedString :  " << testedString << endl;
+    //    << endl;
+    // cout << " out of this cut ...testedString :  " << testedString << endl;
 
-    return (line.substr(whereFistChar - 1, testedString.length()).find(testedString) != std::string::npos);
+    return (line.substr(whereFistChar - 1, testedString.length())
+                .find(testedString) != std::string::npos);
   }
 }
 
@@ -62,15 +73,15 @@ bool test(const string &currentFile, const string &testingName,
   std::size_t foundSep = currentFile.find_last_of(folderSeparator);
   string fn = currentFile.substr(foundSep + 1);
   string workPath = currentFile.substr(0, foundSep);
-  for (int index = 0; index < location ; index++ ) {
-			foundSep = workPath.find_last_of(folderSeparator);
-			workPath = workPath.substr(0, foundSep);
-			 // std::cout << "<path: " << workPath << '\n';
+  for (int index = 0; index < location; index++) {
+    foundSep = workPath.find_last_of(folderSeparator);
+    workPath = workPath.substr(0, foundSep);
+    // std::cout << "<path: " << workPath << '\n';
   }
   workPath.append(folderSeparator);
   workPath.append(testingName);
 
-  //std::cout << "_path: " << workPath << '\n';
+  // std::cout << "_path: " << workPath << '\n';
 
   ifstream fileStream;
   bool found;
@@ -78,12 +89,12 @@ bool test(const string &currentFile, const string &testingName,
 
   // attemps to open...
   fileStream.open(workPath);
-  if (!fileStream.is_open()) { // file does not exist 
+  if (!fileStream.is_open()) {  // file does not exist
     return false;
-  }  
-  if (what.empty()) { // file exists and this is all that is required
+  }
+  if (what.empty()) {  // file exists and this is all that is required
     return true;
-  }  
+  }
 
   // OK open, search for something...
   // fast forward
@@ -106,10 +117,10 @@ bool test(const string &currentFile, const string &testingName,
   // testing ...
   found = testLine(line, what, whereFistChar);
   if (found) {
-   // std::cout << "found : " << what << '\n';
+    // std::cout << "found : " << what << '\n';
     return true;
   }
-  if (whereline > 0) { // if only one line is tested
+  if (whereline > 0) {  // if only one line is tested
     return false;
   }
 
@@ -119,8 +130,8 @@ bool test(const string &currentFile, const string &testingName,
       return false;
     }
     found = testLine(line, what, whereFistChar);
-    if (found ) {
-     // std::cout << "found :" << what << '\n';
+    if (found) {
+      // std::cout << "found :" << what << '\n';
       return true;
     }
   }
@@ -128,7 +139,8 @@ bool test(const string &currentFile, const string &testingName,
 }
 
 int main(int argc, char **argv) {
-#include "forCprogInit.txt"
+  bool firstLine = true;
+#include "../../specifications/forCprogInit.txt"
   ifstream mainfileStream;
 
   int bestCaseNumber;
@@ -138,13 +150,13 @@ int main(int argc, char **argv) {
   int addme;
   int caseNumber;
   bool debug = true;
-  debug = false; ////////// DEBUG
+  debug = false;  ////////// DEBUG
   bool debutStore;
   string line;
   string currFileName;
   string rootPathReplaceFrom, rootPathReplaceTo;
   bool replaceRootPath;
- // string currentFile;
+  // string currentFile;
   /* class Data {
    public:
     std::vector<double> x;
@@ -159,8 +171,9 @@ int main(int argc, char **argv) {
   }
 
   mainfileStream.open(argv[1]);
-  if (!mainfileStream.is_open()) { // file does not exist 
-    cerr << argv[0] << ": " << argv[1] << " : no such file or directory" << endl;
+  if (!mainfileStream.is_open()) {  // file does not exist
+    cerr << argv[0] << ": " << argv[1] << " : no such file or directory"
+         << endl;
     return -1;
   }
   // change path from original location in zip file to true location
@@ -172,9 +185,8 @@ int main(int argc, char **argv) {
     replaceRootPath = false;
   }
 
-  //for (int loop = 1; loop < argc; loop++) {
-    while(getline(mainfileStream, line)) {
-      
+  // for (int loop = 1; loop < argc; loop++) {
+  while (getline(mainfileStream, line)) {
     bestCaseValue = 0.0;
     bestCaseNumber = -1;
     // currentFile.clear();
@@ -182,17 +194,17 @@ int main(int argc, char **argv) {
     currFileName.clear();
     currFileName.assign(line);
     if (replaceRootPath) {
-       //    cout << "before " << currFileName << endl;
+      //    cout << "before " << currFileName << endl;
       if (rootPathReplaceFrom.length() > 0)
-      currFileName = currFileName.substr(rootPathReplaceFrom.length());
-       if (rootPathReplaceTo.length() > 0)
-      currFileName.insert(0, rootPathReplaceTo);
-       //           cout << "after " << currFileName  << endl;
+        currFileName = currFileName.substr(rootPathReplaceFrom.length());
+      if (rootPathReplaceTo.length() > 0)
+        currFileName.insert(0, rootPathReplaceTo);
+      //           cout << "after " << currFileName  << endl;
     }
     if (debug) {
       // cout << "========================================================="
       //      << endl;
-      cout << "Work on file: " << currFileName ;
+      cout << "Work on file: " << currFileName;
       cout << endl;
     }
     for (caseNumber = 1; caseNumber <= 32; caseNumber++) {
@@ -202,11 +214,11 @@ int main(int argc, char **argv) {
       // Prepare long list of test in forCprog.txt file...
       debutStore = debug;
       debug = false;
-     // if (loop == 1) debug = false;  // was true
-        // std::cout << "++testing : " << currentFile << '\n';
-        // std::cout << "++testingName : " << currFileName << '\n';
+      // if (loop == 1) debug = false;  // was true
+      // std::cout << "++testing : " << currentFile << '\n';
+      // std::cout << "++testingName : " << currFileName << '\n';
 
-#include "forCprog.txt"
+#include "../../specifications/forCprog.txt"
       //  cout << "condition  " << condition << ": " << endl;
       //   cout << "condition2 " << condition2 << ": " << endl;
 
@@ -223,44 +235,40 @@ int main(int argc, char **argv) {
         bestCaseNumber = caseNumber;
       }
       debug = debutStore;
-      
+
       if (debug && condition2) {
-        if (condition ) {
-          cout << "YES:::::: " << caseNumber << ": " << ObjTitle[caseNumber - 1];
-               //<< " "
-               //<< "FileKey: " << fileKey[caseNumber - 1] << " "
-               //<< "Level: " << Level[caseNumber - 1] << " ";
-           } else {
-             cout << "NO        " << caseNumber  << ": ";
+        if (condition) {
+          cout << "YES:::::: " << caseNumber << ": "
+               << ObjTitle[caseNumber - 1];
+          //<< " "
+          //<< "FileKey: " << fileKey[caseNumber - 1] << " "
+          //<< "Level: " << Level[caseNumber - 1] << " ";
+        } else {
+          cout << "NO        " << caseNumber << ": ";
           //       << ObjTitle[caseNumber ] << " "
           //       << "FileKey: " << fileKey[caseNumber - 1] << " ";
-           }
-          cout << endl;
-        
+        }
+        cout << endl;
       }
-      
     }
     caseNumber = bestCaseNumber;
     if (caseNumber > 0) {
-      cout 
- //          << "" << caseNumber << ":"
-           << " \"" << ObjTitle[caseNumber - 1] << "\""
-           << " found for file "
-          // << "FileKey: " << fileKey[caseNumber - 1] << " "
-         //  << "Level: " << Level[caseNumber - 1] << " "
-           << "<" << line << ">"
-           << " BasicCathegory: " << BasicCathegory[caseNumber - 1] 
-           << " Type: " << Type[caseNumber - 1] 
-           << " SubType: " << SubType[caseNumber - 1] 
-           << " fileKey: " << fileKey[caseNumber - 1] 
-           << " Level: " << Level[caseNumber - 1] 
-      // } else {
-      //   cout << "NO        " << caseNumber - 1 << ": "
-      //       << ObjTitle[caseNumber ] << " "
-      //       << "FileKey: " << fileKey[caseNumber - 1] << " ";
-       << endl;
-    //} else {
-     //  cout << endl;
+      if (firstLine) {
+        cout << "[" << endl;
+        firstLine = false;
+      } else {
+        cout << "," << endl;
+      }
+      cout << " {" << endl
+           << "  \"objTitle\":\"" << ObjTitle[caseNumber - 1] << "\"" << "," << endl
+           << "  \"basicCategory\":\"" << BasicCathegory[caseNumber - 1] << "\"" << "," << endl
+           << "  \"type\":\"" << Type[caseNumber - 1] << "\"" << "," << endl
+           << "  \"subType\":\"" << SubType[caseNumber - 1] << "\"" << "," << endl
+           << "  \"fileKey\": \"" << fileKey[caseNumber - 1] << "\"" << "," << endl
+           << "  \"level\": " << Level[caseNumber - 1] << "," << endl
+           << "  \"file\":\"" << line << "\"" << endl // no comma, this is the last...
+           << " }"  ;// no end of line, will depend if need a comma...
     }
   }
+  cout << endl << "]" << endl;
 }

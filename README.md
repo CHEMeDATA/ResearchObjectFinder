@@ -1,10 +1,7 @@
-**In progress.** If you want to contribute, the most direct manner is to [fork this project](https://github.com/CHEMeDATA/ResearchObjectFinder/edit/master/README.md), make changes and make a pull request.
-A more simple methods consits in [submitting a ticket](https://github.com/CHEMeDATA/ResearchObjectFinder/issues/new). All contributions are welcome!
 
 ## Finding Chemistry Objects 
 The goal is to locate chemistry objects such as chemical structure (.mol, .sdf, .cdx files), NMR spectra in the Bruker format *etc.* inside archives in the .zip format.
-This will allow to list them, propose a preview, selective upload, *etc.* in short: make the data FAIR.
-
+This will allow to list them, propose a preview, allow selective upload, *etc.* in short: make the content of the .zip file searchable.
 
 ## Short list of Chemistry object
 This is a preliminary short version of a [longer list](#long-list-of-chemistry-object) (see below) providing more complex examples.
@@ -73,7 +70,7 @@ requireFileInclude(currentFolder, 0, "2D", 2, 21) // searches for "2D" at line 2
 requireFileInclude(currentFolder, 0, "3D", 2, 21) // searches for "3D" at line 2, characters 21 to 22 
 ```
 
-This allows to distinguish different (sub)types of objects. In this specific case, to disthinguish a 1D <sup>13</sup>C NMR spectra from 1D spectra of other isotope). We need to make this distinction to make a precise list of the content of the archive.
+This allows to distinguish different (sub)types of objects. In this specific case, to disthinguish a 1D <sup>13</sup>C NMR spectra from 1D spectra of other isotope). We need to make this distinction to make a precise list of the content of the archive. (For eg. it makes no sense to overlap <sup>1</sup>H and <sup>13</sup>C spectra, the two should be distinguised)
 ## Other operations
 ### Using boolean operators
  Using boolean operators
@@ -110,7 +107,7 @@ it should return `/data/studentwork/honey/`.
 
 ## Long list of Chemistry object
 
-To be extendend.
+To be extendend ...
 
 #|Chemistry object | Criteria | Type of visualization
 -|------|---|---
@@ -135,24 +132,24 @@ Why an ontology:
 In chemistry (for example), we often record the "Full analysis" of compounds. It is composed of a set of experiment, which are themself composed of smaller elements (FID's that are processed into spectra).
 
 * Full analysis 
-  * 1D 1H spectrum
+  * 1D <sup>1</sup>H spectrum
     * Fid of the above spectrum
-  * 1D 13C spectrum
+  * 1D <sup>13</sup>C spectrum
     * Fid of the above spectrum
-  * 2D 1H-13C HSQC spectrum
+  * 2D <sup>1</sup>H-<sup>13</sup>C HSQC spectrum
     * Fid of the above spectrum
   * etc.
   
-  The onthology will facilitate the generation of the criteria for a "full analysis". Instead of listing all the conditions to fullfill, it would inherit the conditions of the siblings.
+  The ontology will facilitate the generation of the criteria for a "full analysis". Instead of listing all the conditions to fulfill, it would inherit the conditions of the siblings.
 
 - The condition for spectrum object will includes the conditions of FID
-- The conditions about the "full analysis" could be defined based on the list of spectra, without needing to care about the conditions to fullfill for each spectrum.
+- The conditions about the "full analysis" could be defined based on the list of spectra, without needing to care about the conditions to fulfill for each spectrum.
 - 1D <sup>1</sup>H,<sup>13</sup>C, etc. spectra would be a subclass of 1D spectra
 
 
 ## Installation of the demo 
 
-## Get date for the demo
+## Get data for the demo
 
 The input should be located in the **data** folder. 
 
@@ -175,3 +172,7 @@ The object may include multiple files or all files included in a branch of the f
 
 The output is:
 
+**In progress.** If you want to contribute, the most direct manner is to [fork this project](https://github.com/CHEMeDATA/ResearchObjectFinder/edit/master/README.md), make changes and make a pull request.
+A more simple methods consits in [submitting a ticket](https://github.com/CHEMeDATA/ResearchObjectFinder/issues/new). All contributions are welcome!
+
+[examples](examples/README.md)
