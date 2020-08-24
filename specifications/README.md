@@ -1,11 +1,11 @@
 # Specifications of chemisty objects 
-List of properties of chemistry objects are in the .xlsx file.
-They converted into lists of criteria that can be used for different languages.
-For now, it exsits only for C++.
-# Generation of code including criteria 
+List of properties of chemistry objects are in this [mainClassification.xlsx](mainClassification.xlsx)] file.
+It is converted into lists of criteria that can be used to program object finders in different languages.
 
+For now, it exists only for C++.
+# Generation of code  
 
-Thes files are generated using:
+The code including the criteria applied for the identification of chemistry objects are is generated using:
 ```
 cd specifications
 ./compileList.sh
