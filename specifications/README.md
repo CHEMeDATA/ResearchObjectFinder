@@ -1,6 +1,6 @@
 # Specifications of chemisty objects 
 List of properties of chemistry objects are in this (very ugly) [mainClassification.xlsx](mainClassification.xlsx) file.
-It is converted (after some manual work...  - this is work in progress...) into lists of criteria that can be used to program object finders in different languages.
+It is converted (after some manual work...  - this is work in progress...) into lists of criteria that can be used to program object finders in different computer languages.
 
 For now, it exists only for C++.
 # Generation of code  
