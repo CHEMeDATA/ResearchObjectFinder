@@ -2,7 +2,7 @@
 
 Store the archive files (.zip) in the `data` folder. For example download the .zip file from this [yareta record](https://yareta.unige.ch/frontend/archive/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6).
 
-If the program has been compiled (see `src/cpp/README.md`) a list of the chemistry objects will be store in the `data/` folder using :
+If the program has been compiled (see [src/cpp](src/cpp/README.md) `src/cpp/README.md`) a list of the chemistry objects will be store in the `data/` folder using :
 ```
 src/bash/generateChemistryObjects.bash
 ```
