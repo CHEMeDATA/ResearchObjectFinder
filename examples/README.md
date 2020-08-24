@@ -1,8 +1,10 @@
 # Listing chemistry objects
 
-Store the archive files (.zip) in the `data` folder. For example download the .zip file from this [yareta record](https://yareta.unige.ch/frontend/archive/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6).
+Clone [this repository](https://github.com/CHEMeDATA/ResearchObjectFinder/archive/master.zip).
 
-If the program has been compiled (see [src/cpp](../src/cpp/README.md) `src/cpp/README.md`) a list of the chemistry objects will be store in the `data/` folder with :
+Store the archive files (.zip) in the `data` folder. (For example this [yareta record](https://yareta.unige.ch/frontend/archive/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6).)
+
+If the program has been compiled for your system (see [src/cpp](../src/cpp/README.md) `src/cpp/README.md`) a list of the chemistry objects will be generated and stored in the `data/` folder with :
 ```
 src/bash/generateChemistryObjects.bash
 ```
@@ -50,3 +52,5 @@ src/cpp/listChemObjects.o data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFile
 
 
 [demo_archive_yareta.json](demo_archive_yareta.json) (This file may be reformated by the browser).
+
+Note that only some of these objects are worth being listed to a visitor of the repository.
