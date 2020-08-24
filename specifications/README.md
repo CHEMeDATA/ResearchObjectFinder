@@ -1,11 +1,17 @@
 # Specifications of chemisty objects 
 List of properties of chemistry objects are in the .xlsx file.
-# Generation of cpp code 
-The cpp code (two files) are generated using :
+They converted into lists of criteria that can be used for different languages.
+For now, it exsits only for C++.
+# Generation of code including criteria 
 
-This is used to generate two files of the cpp code used to find chemistry objects.
+
+Thes files are generated using:
+```
+cd specifications
 ./compileList.sh
+cd ..
 
-Genereated files included in the C++ program: 
+```
 
-forCprogInit.txt
+## C++ implementation
+The files [forCprog.txt](forCprog.txt) and [forCprogInit.txt](forCprogInit.txt) are included (using `#include ...`) in the C++ program ([src/cpp](../src/cpp/README.md).
