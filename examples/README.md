@@ -28,14 +28,10 @@ The analysis uses the C++ program `src/cpp/listChemObjects.cpp`.
 
 It includes tests to identify chemistry objects.
 
-If the criteria for the identification of chemistry objects are included in the program (see [specifications](../specifications/README.md)).
-If they are changed, recompile.
-
-## Compilation 
-
-The first time, or if you change the chemistry objects ontology (in the `specification` folder) you have to (re)compile listChemObjects.cpp in `src/cpp`. See `src/cpp/README.md`.
-
-## Analysis of the data
+The criteria for the identification of chemistry objects are included in the program (see [specifications](../specifications/README.md)).
+It generates Json, but other formats could be easily generated - Just 
+[submitting a ticket](https://github.com/CHEMeDATA/ResearchObjectFinder/issues/new).
+#### Analysis of the data
 
 The compiled C++ program reads the relevant files and generates the list of chemisty objects as a json: 
 
