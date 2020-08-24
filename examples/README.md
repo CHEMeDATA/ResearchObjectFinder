@@ -1,6 +1,6 @@
 # Listing chemistry objects
 
-Clone [this repository](https://github.com/CHEMeDATA/ResearchObjectFinder/archive/master.zip).
+Clone [this repository](https://github.com/CHEMeDATA/ResearchObjectFinder).
 
 Store the archive files (.zip) in the `data` folder. (For example this [yareta record](https://yareta.unige.ch/frontend/archive/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6).)
 
