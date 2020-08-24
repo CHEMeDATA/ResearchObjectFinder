@@ -51,4 +51,4 @@ src/cpp/listChemObjects.o data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFile
 ```
 
 
-Note: the listChemObjects.cpp file includes two files from the `../specifications` folder.
+Note: the listChemObjects.cpp file includes two files from the [specifications](../specifications/README.md) folder.
