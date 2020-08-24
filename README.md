@@ -69,7 +69,7 @@ requireFileInclude(currentFolder, "acqus",2,"##$NUC1= <13C>")  // test in the fi
 ```
 For example, to test if the structure in a .mol file is 2D or 3D: 
 ```javascript
-requireFileInclude(currentFolder, 0 , "2D", 2, 21) // searches for "2D" at line 2, characters 21 to 22 
+requireFileInclude(currentFolder, 0, "2D", 2, 21) // searches for "2D" at line 2, characters 21 to 22 
 requireFileInclude(currentFolder, 0, "3D", 2, 21) // searches for "3D" at line 2, characters 21 to 22 
 ```
 
