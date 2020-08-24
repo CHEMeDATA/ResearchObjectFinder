@@ -14,4 +14,4 @@ cd ..
 ```
 
 ## C++ implementation
-The files [forCprog.txt](forCprog.txt) and [forCprogInit.txt](forCprogInit.txt) are included (using `#include ...`) in the C++ program ([listChemObjects.cpp](../src/cpp/listChemObjects.cpp)). More details in the [C++](../src/cpp/README.md) implementation page.
+The [forCprog.txt](forCprog.txt) and [forCprogInit.txt](forCprogInit.txt) files are included (using `#include ...`) in the C++ program ([listChemObjects.cpp](../src/cpp/listChemObjects.cpp)). More details in the [C++](../src/cpp/README.md) implementation page.
