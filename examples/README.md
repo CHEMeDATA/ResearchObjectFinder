@@ -50,7 +50,29 @@ src/cpp/listChemObjects.o data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFile
 
 [demo_archive_yareta.json on GihHub](https://github.com/CHEMeDATA/ResearchObjectFinder/blob/master/examples/demo_archive_yareta.json) (crude data).
 
-
 [demo_archive_yareta.json](demo_archive_yareta.json) (This file may be reformated by the browser).
+
+After [converting](https://www.freeformatter.com/json-to-xml-converter.html) the json to xml and using the xml to [generate](https://www.freeformatter.com/xsd-generator.html) xsd we get the following schema:
+```xml
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root" type="rootType"/>
+  <xs:complexType name="rowType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="objTitle"/>
+      <xs:element type="xs:string" name="basicCategory"/>
+      <xs:element type="xs:string" name="type"/>
+      <xs:element type="xs:string" name="subType"/>
+      <xs:element type="xs:string" name="fileKey"/>
+      <xs:element type="xs:byte" name="level"/>
+      <xs:element type="xs:string" name="file"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="rootType">
+    <xs:sequence>
+      <xs:element type="rowType" name="row" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+```
 
 Note that only some of these objects are worth being listed to a visitor of the repository.

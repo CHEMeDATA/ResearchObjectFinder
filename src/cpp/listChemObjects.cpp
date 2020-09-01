@@ -31,6 +31,7 @@ src/cpp/listChemObjects.o data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFile
 */
 
 bool hasEnding(const string &fullString, const string &ending) {
+  // test if the string fullString ends with the string endsing
   if (fullString.length() >= ending.length()) {
     return (0 == fullString.compare(fullString.length() - ending.length(),
                                     ending.length(), ending));
@@ -41,6 +42,8 @@ bool hasEnding(const string &fullString, const string &ending) {
 
 inline bool testLine(const string &line, const string &testedString,
                      const int &whereFistChar) {
+  // Test the presence of the string testedString int the string line. Option:
+  // indicate where to look using the int whereFistChar
   if (whereFistChar == 0) {
     return (line.find(testedString) != std::string::npos);
   } else {
@@ -140,6 +143,11 @@ bool test(const string &currentFile, const string &testingName,
 
 int main(int argc, char **argv) {
   bool firstLine = true;
+// The forCprogInit.txt file contains a list of vectors describing each object 
+// Example:
+//vector<string> ObjTitle; // initialize the ObjTitle vector of string
+//ObjTitle.push_back("Gaussian file"); // fill the vector with data
+// ...
 #include "../../specifications/forCprogInit.txt"
   ifstream mainfileStream;
 
@@ -166,7 +174,8 @@ int main(int argc, char **argv) {
     data.y.clear();
 */
   if (argc < 2) {
-    cerr << argv[0] << ": missing input file" << endl;
+    cerr << argv[0] << ": missing input file. Usage: " <<  argv[0] << " infile [path1 path2]" << endl;
+    cerr << " (Where infile includes the list of file to analye and path1 and path2 are the respectively the part of he path for files found in infile to remove and add respectivley.)" << endl;
     return -1;
   }
 
@@ -218,7 +227,10 @@ int main(int argc, char **argv) {
       // std::cout << "++testing : " << currentFile << '\n';
       // std::cout << "++testingName : " << currFileName << '\n';
 
+// The forCprog.txt returns bools for condition and condition2 depending on
+// currFileName and caseNumber
 #include "../../specifications/forCprog.txt"
+
       //  cout << "condition  " << condition << ": " << endl;
       //   cout << "condition2 " << condition2 << ": " << endl;
 
@@ -252,6 +264,7 @@ int main(int argc, char **argv) {
       }
     }
     caseNumber = bestCaseNumber;
+    // json output
     if (caseNumber > 0) {
       if (firstLine) {
         cout << "[" << endl;
