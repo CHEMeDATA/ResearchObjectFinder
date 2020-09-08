@@ -158,6 +158,198 @@ SubType.push_back("2DNMR"); // 28
 SubType.push_back("2DNMR"); // 29
 SubType.push_back("2DNMR"); // 30
 
+vector<string> NMR_detectedIsotope; // 0
+NMR_detectedIsotope.push_back(""); // 1
+NMR_detectedIsotope.push_back(""); // 2
+NMR_detectedIsotope.push_back(""); // 3
+NMR_detectedIsotope.push_back(""); // 4
+NMR_detectedIsotope.push_back(""); // 5
+NMR_detectedIsotope.push_back(""); // 6
+NMR_detectedIsotope.push_back(""); // 7
+NMR_detectedIsotope.push_back(""); // 8
+NMR_detectedIsotope.push_back(""); // 9
+NMR_detectedIsotope.push_back(""); // 10
+NMR_detectedIsotope.push_back(""); // 11
+NMR_detectedIsotope.push_back(""); // 12
+NMR_detectedIsotope.push_back(""); // 13
+NMR_detectedIsotope.push_back("1H"); // 14
+NMR_detectedIsotope.push_back("13C"); // 15
+NMR_detectedIsotope.push_back("19F"); // 16
+NMR_detectedIsotope.push_back("31P"); // 17
+NMR_detectedIsotope.push_back("2H"); // 18
+NMR_detectedIsotope.push_back("13C"); // 19
+NMR_detectedIsotope.push_back("13C"); // 20
+NMR_detectedIsotope.push_back(""); // 21
+NMR_detectedIsotope.push_back(""); // 22
+NMR_detectedIsotope.push_back(""); // 23
+NMR_detectedIsotope.push_back("1H"); // 24
+NMR_detectedIsotope.push_back("1H"); // 25
+NMR_detectedIsotope.push_back("1H"); // 26
+NMR_detectedIsotope.push_back("1H"); // 27
+NMR_detectedIsotope.push_back("1H"); // 28
+NMR_detectedIsotope.push_back("1H"); // 29
+NMR_detectedIsotope.push_back("1H"); // 30
+
+vector<string> NMR_2DNMR_detectedIsotope; // 0
+NMR_2DNMR_detectedIsotope.push_back(""); // 1
+NMR_2DNMR_detectedIsotope.push_back(""); // 2
+NMR_2DNMR_detectedIsotope.push_back(""); // 3
+NMR_2DNMR_detectedIsotope.push_back(""); // 4
+NMR_2DNMR_detectedIsotope.push_back(""); // 5
+NMR_2DNMR_detectedIsotope.push_back(""); // 6
+NMR_2DNMR_detectedIsotope.push_back(""); // 7
+NMR_2DNMR_detectedIsotope.push_back(""); // 8
+NMR_2DNMR_detectedIsotope.push_back(""); // 9
+NMR_2DNMR_detectedIsotope.push_back(""); // 10
+NMR_2DNMR_detectedIsotope.push_back(""); // 11
+NMR_2DNMR_detectedIsotope.push_back(""); // 12
+NMR_2DNMR_detectedIsotope.push_back(""); // 13
+NMR_2DNMR_detectedIsotope.push_back(""); // 14
+NMR_2DNMR_detectedIsotope.push_back(""); // 15
+NMR_2DNMR_detectedIsotope.push_back(""); // 16
+NMR_2DNMR_detectedIsotope.push_back(""); // 17
+NMR_2DNMR_detectedIsotope.push_back(""); // 18
+NMR_2DNMR_detectedIsotope.push_back(""); // 19
+NMR_2DNMR_detectedIsotope.push_back(""); // 20
+NMR_2DNMR_detectedIsotope.push_back(""); // 21
+NMR_2DNMR_detectedIsotope.push_back(""); // 22
+NMR_2DNMR_detectedIsotope.push_back(""); // 23
+NMR_2DNMR_detectedIsotope.push_back("?"); // 24
+NMR_2DNMR_detectedIsotope.push_back("1H"); // 25
+NMR_2DNMR_detectedIsotope.push_back("1H"); // 26
+NMR_2DNMR_detectedIsotope.push_back("1H"); // 27
+NMR_2DNMR_detectedIsotope.push_back("13C"); // 28
+NMR_2DNMR_detectedIsotope.push_back("13C"); // 29
+NMR_2DNMR_detectedIsotope.push_back("13C"); // 30
+
+vector<string> specifyerForProperties; // 0
+specifyerForProperties.push_back(""); // 1
+specifyerForProperties.push_back(""); // 2
+specifyerForProperties.push_back(""); // 3
+specifyerForProperties.push_back(""); // 4
+specifyerForProperties.push_back(""); // 5
+specifyerForProperties.push_back("struct2D"); // 6
+specifyerForProperties.push_back("struct2D"); // 7
+specifyerForProperties.push_back("struct3D"); // 8
+specifyerForProperties.push_back("struct3D"); // 9
+specifyerForProperties.push_back(""); // 10
+specifyerForProperties.push_back("FID"); // 11
+specifyerForProperties.push_back("spectrum1D"); // 12
+specifyerForProperties.push_back("spectrum1D"); // 13
+specifyerForProperties.push_back("spectrum1D"); // 14
+specifyerForProperties.push_back("spectrum1D"); // 15
+specifyerForProperties.push_back("spectrum1D"); // 16
+specifyerForProperties.push_back("spectrum1D"); // 17
+specifyerForProperties.push_back("spectrum1D"); // 18
+specifyerForProperties.push_back("spectrum1D"); // 19
+specifyerForProperties.push_back("spectrum1D"); // 20
+specifyerForProperties.push_back("SeriesFID"); // 21
+specifyerForProperties.push_back("spectrum2D"); // 22
+specifyerForProperties.push_back("spectrum2D"); // 23
+specifyerForProperties.push_back("spectrum2D"); // 24
+specifyerForProperties.push_back("spectrum2D"); // 25
+specifyerForProperties.push_back("spectrum2D"); // 26
+specifyerForProperties.push_back("spectrum2D"); // 27
+specifyerForProperties.push_back("spectrum2D"); // 28
+specifyerForProperties.push_back("spectrum2D"); // 29
+specifyerForProperties.push_back("spectrum2D"); // 30
+
+vector<string> functionsShouldBeAvailable1; // 0
+functionsShouldBeAvailable1.push_back(""); // 1
+functionsShouldBeAvailable1.push_back(""); // 2
+functionsShouldBeAvailable1.push_back(""); // 3
+functionsShouldBeAvailable1.push_back(""); // 4
+functionsShouldBeAvailable1.push_back(""); // 5
+functionsShouldBeAvailable1.push_back(""); // 6
+functionsShouldBeAvailable1.push_back(""); // 7
+functionsShouldBeAvailable1.push_back(""); // 8
+functionsShouldBeAvailable1.push_back(""); // 9
+functionsShouldBeAvailable1.push_back(""); // 10
+functionsShouldBeAvailable1.push_back(""); // 11
+functionsShouldBeAvailable1.push_back(""); // 12
+functionsShouldBeAvailable1.push_back(""); // 13
+functionsShouldBeAvailable1.push_back(""); // 14
+functionsShouldBeAvailable1.push_back(""); // 15
+functionsShouldBeAvailable1.push_back(""); // 16
+functionsShouldBeAvailable1.push_back(""); // 17
+functionsShouldBeAvailable1.push_back(""); // 18
+functionsShouldBeAvailable1.push_back(""); // 19
+functionsShouldBeAvailable1.push_back(""); // 20
+functionsShouldBeAvailable1.push_back(""); // 21
+functionsShouldBeAvailable1.push_back(""); // 22
+functionsShouldBeAvailable1.push_back(""); // 23
+functionsShouldBeAvailable1.push_back(""); // 24
+functionsShouldBeAvailable1.push_back(""); // 25
+functionsShouldBeAvailable1.push_back(""); // 26
+functionsShouldBeAvailable1.push_back(""); // 27
+functionsShouldBeAvailable1.push_back(""); // 28
+functionsShouldBeAvailable1.push_back(""); // 29
+functionsShouldBeAvailable1.push_back(""); // 30
+
+vector<string> functionsShouldBeAvailable2; // 0
+functionsShouldBeAvailable2.push_back("obabel::getMol"); // 1
+functionsShouldBeAvailable2.push_back("obabel::getMol"); // 2
+functionsShouldBeAvailable2.push_back("obabel::getMol"); // 3
+functionsShouldBeAvailable2.push_back("is Valid"); // 4
+functionsShouldBeAvailable2.push_back("is Valid"); // 5
+functionsShouldBeAvailable2.push_back("is Valid"); // 6
+functionsShouldBeAvailable2.push_back("is Valid"); // 7
+functionsShouldBeAvailable2.push_back("is Valid"); // 8
+functionsShouldBeAvailable2.push_back("is Valid"); // 9
+functionsShouldBeAvailable2.push_back("is Valid"); // 10
+functionsShouldBeAvailable2.push_back(""); // 11
+functionsShouldBeAvailable2.push_back(""); // 12
+functionsShouldBeAvailable2.push_back(""); // 13
+functionsShouldBeAvailable2.push_back(""); // 14
+functionsShouldBeAvailable2.push_back(""); // 15
+functionsShouldBeAvailable2.push_back(""); // 16
+functionsShouldBeAvailable2.push_back(""); // 17
+functionsShouldBeAvailable2.push_back(""); // 18
+functionsShouldBeAvailable2.push_back(""); // 19
+functionsShouldBeAvailable2.push_back(""); // 20
+functionsShouldBeAvailable2.push_back(""); // 21
+functionsShouldBeAvailable2.push_back(""); // 22
+functionsShouldBeAvailable2.push_back(""); // 23
+functionsShouldBeAvailable2.push_back(""); // 24
+functionsShouldBeAvailable2.push_back(""); // 25
+functionsShouldBeAvailable2.push_back(""); // 26
+functionsShouldBeAvailable2.push_back(""); // 27
+functionsShouldBeAvailable2.push_back(""); // 28
+functionsShouldBeAvailable2.push_back(""); // 29
+functionsShouldBeAvailable2.push_back(""); // 30
+
+vector<string> functionsShouldBeAvailable3; // 0
+functionsShouldBeAvailable3.push_back("getEnergy"); // 1
+functionsShouldBeAvailable3.push_back(""); // 2
+functionsShouldBeAvailable3.push_back(""); // 3
+functionsShouldBeAvailable3.push_back("getImage(size...)"); // 4
+functionsShouldBeAvailable3.push_back("getImage(size...)"); // 5
+functionsShouldBeAvailable3.push_back("getImage(size...)"); // 6
+functionsShouldBeAvailable3.push_back("getImage(size...)"); // 7
+functionsShouldBeAvailable3.push_back("getImage(size...)"); // 8
+functionsShouldBeAvailable3.push_back("getImage(size...)"); // 9
+functionsShouldBeAvailable3.push_back("getImage(size...)"); // 10
+functionsShouldBeAvailable3.push_back(""); // 11
+functionsShouldBeAvailable3.push_back(""); // 12
+functionsShouldBeAvailable3.push_back(""); // 13
+functionsShouldBeAvailable3.push_back(""); // 14
+functionsShouldBeAvailable3.push_back(""); // 15
+functionsShouldBeAvailable3.push_back(""); // 16
+functionsShouldBeAvailable3.push_back(""); // 17
+functionsShouldBeAvailable3.push_back(""); // 18
+functionsShouldBeAvailable3.push_back(""); // 19
+functionsShouldBeAvailable3.push_back(""); // 20
+functionsShouldBeAvailable3.push_back(""); // 21
+functionsShouldBeAvailable3.push_back(""); // 22
+functionsShouldBeAvailable3.push_back(""); // 23
+functionsShouldBeAvailable3.push_back(""); // 24
+functionsShouldBeAvailable3.push_back(""); // 25
+functionsShouldBeAvailable3.push_back(""); // 26
+functionsShouldBeAvailable3.push_back(""); // 27
+functionsShouldBeAvailable3.push_back(""); // 28
+functionsShouldBeAvailable3.push_back(""); // 29
+functionsShouldBeAvailable3.push_back(""); // 30
+
 vector<string> fileKey; // 0
 fileKey.push_back(".out .log .txt"); // 1
 fileKey.push_back(".cdx"); // 2

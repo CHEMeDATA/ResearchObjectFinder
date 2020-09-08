@@ -113,6 +113,18 @@ cat  uncommentedASCIIlist.txt| cut -d$'\t' -f19>curListInit.txt
 ./callInitializer.sh Type $cppFile2
 cat  uncommentedASCIIlist.txt| cut -d$'\t' -f20>curListInit.txt
 ./callInitializer.sh SubType $cppFile2
+cat  uncommentedASCIIlist.txt| cut -d$'\t' -f21>curListInit.txt
+./callInitializer.sh NMR_detectedIsotope $cppFile2
+cat  uncommentedASCIIlist.txt| cut -d$'\t' -f22>curListInit.txt
+./callInitializer.sh NMR_2DNMR_detectedIsotope $cppFile2
+cat  uncommentedASCIIlist.txt| cut -d$'\t' -f23>curListInit.txt
+./callInitializer.sh specifyerForProperties $cppFile2
+cat  uncommentedASCIIlist.txt| cut -d$'\t' -f24>curListInit.txt
+./callInitializer.sh functionsShouldBeAvailable1 $cppFile2
+cat  uncommentedASCIIlist.txt| cut -d$'\t' -f25>curListInit.txt
+./callInitializer.sh functionsShouldBeAvailable2 $cppFile2
+cat  uncommentedASCIIlist.txt| cut -d$'\t' -f26>curListInit.txt
+./callInitializer.sh functionsShouldBeAvailable3 $cppFile2
 cat  uncommentedASCIIlist.txt| cut -d$'\t' -f3>curListInit.txt
 ./callInitializer.sh fileKey $cppFile2
 
