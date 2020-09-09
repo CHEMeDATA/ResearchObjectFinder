@@ -77,13 +77,4 @@ After [converting](https://www.freeformatter.com/json-to-xml-converter.html) the
 
 Note that only some of these objects are worth being listed to a visitor of the repository.
 
-[show examples of output](../doc)
-
-
-[show examples of output r](doc)
-
-
-[show examples of output](../doc/)
-
-
-[show examples of output](doc/).
+[show examples of output](../doc/index.html)
