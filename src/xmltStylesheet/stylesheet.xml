@@ -46,6 +46,10 @@
 							</td>
 							<td>
 								<xsl:value-of select="Type" />
+   <!-- Content: here trying if...  -->
+   								<xsl:if test="SubType = '1DNMR'">
+									*top
+								</xsl:if> 
 							</td>
 							<td>
 								<xsl:value-of select="SubType" />
@@ -53,9 +57,18 @@
 							<td>
 								<xsl:value-of select="fileKey" />
 							</td>
-							<td>
-								<xsl:value-of select="Level" />
-							</td>
+							   <!-- Content: here trying choose ...  -->
+
+							<xsl:choose>
+								<xsl:when test="Level &gt; 33">
+									<td bgcolor="#ff00ff">
+									<xsl:value-of select="Level"/></td>
+								</xsl:when>
+								<xsl:otherwise>
+									<td>
+									<xsl:value-of select="Level"/></td>
+								</xsl:otherwise>
+							</xsl:choose>
 							<td>
 								<xsl:value-of select="fileName" />
 							</td>
