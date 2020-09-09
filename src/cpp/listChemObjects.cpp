@@ -150,6 +150,7 @@ int main(int argc, char **argv) {
 // ...
 #include "../../specifications/forCprogInit.txt"
   ifstream mainfileStream;
+  ofstream fileSreamOutput;
 
   int bestCaseNumber;
   double bestCaseValue;
@@ -178,54 +179,62 @@ int main(int argc, char **argv) {
     cerr << " (Where infile includes the list of file to analye and path1 and path2 are the respectively the part of he path for files found in infile to remove and add respectivley.)" << endl;
     return -1;
   }
-
   mainfileStream.open(argv[1]);
+
   if (!mainfileStream.is_open()) {  // file does not exist
-    cerr << argv[0] << ": " << argv[1] << " : no such file or directory"
+    cerr << argv[0] << ": " << argv[1] << " : No such file or directory."
          << endl;
     return -1;
   }
-  // change path from original location in zip file to true location
-  if (argc > 3) {
-    rootPathReplaceFrom.assign(argv[2]);
-    rootPathReplaceTo.assign(argv[3]);
-    replaceRootPath = true;
-  } else {
-    replaceRootPath = false;
-  }
 
-  // for (int loop = 1; loop < argc; loop++) {
-  while (getline(mainfileStream, line)) {
-    bestCaseValue = 0.0;
-    bestCaseNumber = -1;
-    // currentFile.clear();
-    // currentFile.assign(argv[loop]);
-    currFileName.clear();
-    currFileName.assign(line);
-    if (replaceRootPath) {
-      //    cout << "before " << currFileName << endl;
-      if (rootPathReplaceFrom.length() > 0)
-        currFileName = currFileName.substr(rootPathReplaceFrom.length());
-      if (rootPathReplaceTo.length() > 0)
-        currFileName.insert(0, rootPathReplaceTo);
-      //           cout << "after " << currFileName  << endl;
-    }
-    if (debug) {
-      // cout << "========================================================="
-      //      << endl;
-      cout << "Work on file: " << currFileName;
-      cout << endl;
-    }
-    for (caseNumber = 1; caseNumber <= 32; caseNumber++) {
-      condition = true;
-      condition2 = false;
+  // for output
+  if (argc >= 4)
+    fileSreamOutput.open(argv[4]);
+  else
+    fileSreamOutput.open("./default_output.xml");
 
-      // Prepare long list of test in forCprog.txt file...
-      debutStore = debug;
-      debug = false;
-      // if (loop == 1) debug = false;  // was true
-      // std::cout << "++testing : " << currentFile << '\n';
-      // std::cout << "++testingName : " << currFileName << '\n';
+
+    // change path from original location in zip file to true location
+    if (argc > 3) {
+      rootPathReplaceFrom.assign(argv[2]);
+      rootPathReplaceTo.assign(argv[3]);
+      replaceRootPath = true;
+    } else {
+      replaceRootPath = false;
+    }
+
+    // for (int loop = 1; loop < argc; loop++) {
+    while (getline(mainfileStream, line)) {
+      bestCaseValue = 0.0;
+      bestCaseNumber = -1;
+      // currentFile.clear();
+      // currentFile.assign(argv[loop]);
+      currFileName.clear();
+      currFileName.assign(line);
+      if (replaceRootPath) {
+        //    cout << "before " << currFileName << endl;
+        if (rootPathReplaceFrom.length() > 0)
+          currFileName = currFileName.substr(rootPathReplaceFrom.length());
+        if (rootPathReplaceTo.length() > 0)
+          currFileName.insert(0, rootPathReplaceTo);
+        //           cout << "after " << currFileName  << endl;
+      }
+      if (debug) {
+        // cout << "========================================================="
+        //      << endl;
+        cout << "Work on file: " << currFileName;
+        cout << endl;
+      }
+      for (caseNumber = 1; caseNumber <= 32; caseNumber++) {
+        condition = true;
+        condition2 = false;
+
+        // Prepare long list of test in forCprog.txt file...
+        debutStore = debug;
+        debug = false;
+        // if (loop == 1) debug = false;  // was true
+        // std::cout << "++testing : " << currentFile << '\n';
+        // std::cout << "++testingName : " << currFileName << '\n';
 
 // The forCprog.txt returns bools for condition and condition2 depending on
 // currFileName and caseNumber
@@ -268,7 +277,6 @@ int main(int argc, char **argv) {
     if (caseNumber > 0) {
       if (firstLine) {
         cout << "[" << endl;
-        firstLine = false;
       } else {
         cout << "," << endl;
       }
@@ -281,7 +289,30 @@ int main(int argc, char **argv) {
            << "  \"level\": " << Level[caseNumber - 1] << "," << endl
            << "  \"file\":\"" << line << "\"" << endl // no comma, this is the last...
            << " }"  ;// no end of line, will depend if need a comma...
+      // xml
+      if (fileSreamOutput.is_open()) {  // file does not exist
+        if (firstLine) {
+          // <?xml version="1.0" encoding="UTF-8"?>
+
+          fileSreamOutput << "<?xml version=\"1.0\"?>" << endl
+                          << "<chemObjects>" << endl;
+        }
+        fileSreamOutput << "\t<object id=\"noidyet\">" << endl
+                        << "\t\t<objTitle>" << ObjTitle[caseNumber - 1] << "</objTitle>" << endl
+                        << "\t\t<basicCategory>" << BasicCathegory[caseNumber - 1] << "</basicCategory>" << endl
+                        << "\t\t<Type>" << Type[caseNumber - 1] << "</Type>" << endl
+                        << "\t\t<SubType>" << SubType[caseNumber - 1] << "</SubType>" << endl
+                        << "\t\t<fileKey>" << fileKey[caseNumber - 1] << "</fileKey>" << endl
+                        << "\t\t<Level>" << Level[caseNumber - 1] << "</Level>" << endl
+                        << "\t</object>" << endl;
+          
+      }
+    firstLine = false;
     }
   }
   cout << endl << "]" << endl;
-}
+  if (fileSreamOutput.is_open()) {  // file does not exist
+    fileSreamOutput << "</chemObjects>" << endl;
+    fileSreamOutput.close();
+  }
+  }

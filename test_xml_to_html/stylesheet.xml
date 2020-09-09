@@ -32,7 +32,7 @@
 						<th>Publish Date</th>
 						<th>Description</th>
 					</tr>
-					<xsl:for-each select="book">
+					<xsl:for-each select="object">
 						<tr>
 							<td>
 								<xsl:value-of select="author" />
