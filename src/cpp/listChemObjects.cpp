@@ -295,6 +295,9 @@ int main(int argc, char **argv) {
           // <?xml version="1.0" encoding="UTF-8"?>
 
           fileSreamOutput << "<?xml version=\"1.0\"?>" << endl
+                          << "<data>" << endl
+                          << "<SourceFile>"
+                          << "\t" << argv[1] << "</SourceFile>" << endl
                           << "<chemObjects>" << endl;
         }
         fileSreamOutput << "\t<object id=\"noidyet\">" << endl
@@ -304,6 +307,7 @@ int main(int argc, char **argv) {
                         << "\t\t<SubType>" << SubType[caseNumber - 1] << "</SubType>" << endl
                         << "\t\t<fileKey>" << fileKey[caseNumber - 1] << "</fileKey>" << endl
                         << "\t\t<Level>" << Level[caseNumber - 1] << "</Level>" << endl
+                        << "\t\t<fileName>" << currFileName << "</fileName>" << endl
                         << "\t</object>" << endl;
           
       }
@@ -313,6 +317,7 @@ int main(int argc, char **argv) {
   cout << endl << "]" << endl;
   if (fileSreamOutput.is_open()) {  // file does not exist
     fileSreamOutput << "</chemObjects>" << endl;
+    fileSreamOutput << "</data>" << endl;
     fileSreamOutput.close();
   }
   }
