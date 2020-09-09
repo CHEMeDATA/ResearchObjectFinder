@@ -1,0 +1,1 @@
+xsltproc stylesheet.xml menu.xml >../doc/index.html

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-	<xsl:template match="/catalog">
+	<xsl:template match="/chemObjects">
 		<html>
 			<head>
 				<style>
@@ -22,7 +22,7 @@
 				</style>
 			</head>
 			<body>
-				<h2>Object</h2>
+				<h2>chemObjects</h2>
 				<table>
 					<tr>
 						<th>Author</th>
@@ -32,7 +32,7 @@
 						<th>Publish Date</th>
 						<th>Description</th>
 					</tr>
-					<xsl:for-each select="object">
+					<xsl:for-each select="book">
 						<tr>
 							<td>
 								<xsl:value-of select="author" />

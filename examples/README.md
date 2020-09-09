@@ -46,6 +46,11 @@ The output can be redirected into a file:
 ```
 src/cpp/listChemObjects.o data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt "" unziped/ > examples/demo_archive_yareta.json
 ```
+This will also create a xml file which can be used to make html (second line)
+```
+src/cpp/listChemObjects.o data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6.zip_listFiles.txt "" unziped/ ./out.xml >out.json
+xsltproc src/xmltStylesheet/stylesheet.xml out.xml
+```
 #### Example of Json file
 
 [demo_archive_yareta.json on GihHub](https://github.com/CHEMeDATA/ResearchObjectFinder/blob/master/examples/demo_archive_yareta.json) (crude data).
