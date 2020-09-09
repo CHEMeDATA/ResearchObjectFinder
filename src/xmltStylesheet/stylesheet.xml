@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template match="/catalog">
+		<html>
+			<head>
+				<style>
+					table {
+					font-family: arial, sans-serif;
+					border-collapse: collapse;
+					width:
+					100%;
+					}
+					td, th {
+					border: 1px solid #dddddd;
+					text-align: left;
+					padding: 8px;
+					}
+					tr:nth-child(even) {
+					background-color: #dddddd;
+					}
+				</style>
+			</head>
+			<body>
+				<h2>Object</h2>
+				<table>
+					<tr>
+						<th>objTitle</th>
+						<th>basicCategory</th>
+						<th>Type</th>
+						<th>SubType</th>
+						<th>fileKey</th>
+						<th>Level</th>
+					</tr>
+					<xsl:for-each select="object">
+						<tr>
+							<td>
+								<xsl:value-of select="objTitle" />
+							</td>
+							<td>
+								<xsl:value-of select="basicCategory" />
+							</td>
+							<td>
+								<xsl:value-of select="Type" />
+							</td>
+							<td>
+								<xsl:value-of select="SubType" />
+							</td>
+							<td>
+								<xsl:value-of select="fileKey" />
+							</td>
+							<td>
+								<xsl:value-of select="Level" />
+							</td>
+						</tr>
+					</xsl:for-each>
+				</table>
+			</body>
+		</html>
+	</xsl:template>
+</xsl:stylesheet>
+   
+          

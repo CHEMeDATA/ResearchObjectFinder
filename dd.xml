@@ -1,0 +1,3875 @@
+<?xml version=" 1.0 "?>
+<chemObjects>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 19F spectrum (general)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 1H spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>30</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full HMBC 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D spectrum (no FID)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker Full COSY 2D NMR spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>proc2s</author>
+		<Level>50</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 2D NMR experiment (SER only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>2DNMR</author>
+		<fileKey>acqu2s</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D 13C spectrum</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>procs</author>
+		<Level>40</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>Bruker 1D NMR experiment (FID only / no spectrum)</author>
+		<basicCategory>Spectroscopy</author>
+		<Type>NMR</author>
+		<SubType>1DNMR</author>
+		<fileKey>acqus</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+	<object id="noidyet">
+		<objTitle>ChemDraw File</author>
+		<basicCategory>ChemicalStructure</author>
+		<Type>ChemDraw</author>
+		<SubType></author>
+		<fileKey>.cdx</author>
+		<Level>10</author>
+	</object>
+</chemObjects>
