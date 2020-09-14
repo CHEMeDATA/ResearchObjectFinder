@@ -140,6 +140,10 @@
 							</xsl:choose>
 					</xsl:for-each>
 				</table>
+				<h2>Generated using</h2>
+				<p> xsltproc src/xmltStylesheet/stylesheet.xml out.xml > doc/index.html</p> 
+				<p> see 
+				 <a href="https://chemedata.github.io/ResearchObjectFinder/examples/">see the examples</a> page for more details.</p> 
 			</body>
 		</html>
 	</xsl:template>
