@@ -26,6 +26,7 @@
 				<h2>Object</h2>
 					from : <xsl:value-of select="SourceFile" />
 				<p>See below for the list of spectra.</p>
+				<p>Table of compounds:</p>
 				<table>
 					<tr>
 						<th>objTitle</th>
@@ -82,8 +83,7 @@
 					</xsl:for-each>
 				</table>
 
-
-				<p>High-order objects (spectra in this case)</p>
+				<p>Table of high-order objects (spectra in this case)</p>
 				<table>
 					<tr>
 						<th>objTitle</th>
