@@ -7,7 +7,7 @@
 				<style>
 					table {
 					font-family: arial, sans-serif;
-					font-size:	8px;
+					font-size:	10px;
 					border-collapse: collapse;
 					width:
 					100%;
@@ -15,7 +15,7 @@
 					td, th {
 					border: 1px solid #dddddd;
 					text-align: left;
-					padding: 8px;
+					padding: 4px;
 					}
 					tr:nth-child(even) {
 					background-color: #dddddd;
@@ -25,7 +25,7 @@
 			<body>
 				<h2>Object</h2>
 					from : <xsl:value-of select="SourceFile" />
-				
+				<p>See below for the list of spectra.</p>
 				<table>
 					<tr>
 						<th>objTitle</th>
@@ -37,6 +37,11 @@
 						<th>FileName</th>
 					</tr>
 					<xsl:for-each select="chemObjects/object">
+
+
+<xsl:if test="basicCategory = 'ChemicalStructure'">
+						
+
 						<tr>
 							<td>
 								<xsl:value-of select="objTitle" />
@@ -47,7 +52,7 @@
 							<td>
 								<xsl:value-of select="Type" />
    <!-- Content: here trying if...  -->
-   								<xsl:if test="SubType = '1DNMR'">
+   								<xsl:if test="SubType = '333DNMR'">
 									*top
 								</xsl:if> 
 							</td>
@@ -60,7 +65,7 @@
 							   <!-- Content: here trying choose ...  -->
 
 							<xsl:choose>
-								<xsl:when test="Level &gt; 33">
+								<xsl:when test="Level &gt; 31113">
 									<td bgcolor="#ff00ff">
 									<xsl:value-of select="Level"/></td>
 								</xsl:when>
@@ -73,6 +78,66 @@
 								<xsl:value-of select="fileName" />
 							</td>
 						</tr>
+						</xsl:if> 
+					</xsl:for-each>
+				</table>
+
+
+				<p>High-order objects (spectra in this case)</p>
+				<table>
+					<tr>
+						<th>objTitle</th>
+						<th>basicCategory</th>
+						<th>Type</th>
+						<th>SubType</th>
+						<th>fileKey</th>
+						<th>Level</th>
+						<th>FileName</th>
+					</tr>
+					<xsl:for-each select="chemObjects/object">
+
+
+
+							<xsl:choose>
+								<xsl:when test="Level &gt; 33">
+
+
+
+						<tr>
+							<td>
+								<xsl:value-of select="objTitle" />
+							</td>
+							<td>
+								<xsl:value-of select="basicCategory" />
+							</td>
+							<td>
+								<xsl:value-of select="Type" />
+   								
+							</td>
+							<td>
+								<xsl:value-of select="SubType" />
+							</td>
+							<td>
+								<xsl:value-of select="fileKey" />
+							</td>
+							   <!-- Content: here trying choose ...  -->
+
+							<xsl:choose>
+								<xsl:when test="Level &gt; 31113">
+									<td bgcolor="#ff00ff">
+									<xsl:value-of select="Level"/></td>
+								</xsl:when>
+								<xsl:otherwise>
+									<td>
+									<xsl:value-of select="Level"/></td>
+								</xsl:otherwise>
+							</xsl:choose>
+							<td>
+								<xsl:value-of select="fileName" />
+							</td>
+						</tr>
+														</xsl:when>
+							</xsl:choose>
 					</xsl:for-each>
 				</table>
 			</body>
