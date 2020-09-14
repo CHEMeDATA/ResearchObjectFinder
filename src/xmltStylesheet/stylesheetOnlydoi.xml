@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+	xmlns:mets="http://www.loc.gov/METS/"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	xmlns:datacite="http://datacite.org/schema/kernel-4">
+	<xsl:template match="/">
+			<xsl:value-of select="mets:mets/mets:dmdSec/mets:mdWrap/mets:xmlData/datacite:resource/datacite:identifier"/>
+	</xsl:template>
+</xsl:stylesheet>
+   
+          

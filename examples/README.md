@@ -83,3 +83,14 @@ After [converting](https://www.freeformatter.com/json-to-xml-converter.html) the
 Note that only some of these objects are worth being listed to a visitor of the repository.
 
 [show examples of output](../doc/index.html)
+
+
+get doi only:
+```
+xsltproc src/xmltStylesheet/stylesheetOnlydoi.xml /Volumes/san256/users_for_mac_system_macPro/jeannerat/mygit/djeanner/ResearchObjectFinder/unziped/data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6/dlcm.xml
+```
+
+get doi and autho information :
+```
+xsltproc src/xmltStylesheet/stylesheetheader.xml /Volumes/san256/users_for_mac_system_macPro/jeannerat/mygit/djeanner/ResearchObjectFinder/unziped/data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6/dlcm.xml
+```
