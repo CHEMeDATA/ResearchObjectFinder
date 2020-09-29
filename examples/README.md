@@ -94,3 +94,6 @@ get doi and autho information :
 ```
 xsltproc src/xmltStylesheet/stylesheetheader.xml /Volumes/san256/users_for_mac_system_macPro/jeannerat/mygit/djeanner/ResearchObjectFinder/unziped/data/62c9dc3b-6f44-4b3b-963d-1ab31c17f6c6/dlcm.xml
 ```
+
+
+See also our [ontology page](https://chemedata.github.io/ontologies/).
